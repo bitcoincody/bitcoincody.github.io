@@ -1,0 +1,29 @@
+body{margin:0px;}
+
+td:nth-child(1){text-align:left;
+font-weight:bold;}
+ 
+
+#loss td:nth-child(5){background-color:#cc9999;
+font-weight:bold; }
+#win td:nth-child(4){background-color:#b2d8b2;
+font-weight:bold; }
+#neutral td:nth-child(3){background-color:#ededed;
+font-weight:bold; }
+
+table td:nth-child(6),table td:nth-child(8) {
+display:none!important;}
+ 
+ table {font-size:8pt;
+width:100%;
+ text-align:center;
+        padding:0px;
+}
+td{
+    padding:0px;}
+
+td {border-bottom:1px solid #333;
+padding:10px;}
+
+td img{width:15px;
+margin-bottom:-3px;}
