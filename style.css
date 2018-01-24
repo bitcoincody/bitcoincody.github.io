@@ -63,8 +63,8 @@ color:#333;
 
 
 
-.table_header{background-color:black!important;
+.table_header td{background-color:black!important;
 color:white!important;
-
-padding:12px;}
+font-weight:bold;
+padding-bottom:9px;}
  
