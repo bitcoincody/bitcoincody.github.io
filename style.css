@@ -1,10 +1,13 @@
 body{margin:0px;
 background-color:black;
 color:white;
+
+  width: 90%;
+  margin: 0 auto; 
 }
 
 td:nth-child(1){text-align:left;
-padding-left:1px;}
+padding-left:15px;}
   
 #loss td:nth-child(5){color:red;
 font-weight:bold;
@@ -30,7 +33,7 @@ table td:nth-child(6),table td:nth-child(8) {
 display:none!important;}
  
  table {font-size:9pt;
-width:90%;
+width:100%;
 
  text-align:left;
  
