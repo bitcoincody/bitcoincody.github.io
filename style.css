@@ -37,7 +37,8 @@ width:100%;
  
 }
 
-td {max-width:10px;}
+td {max-width:10px;
+width:10px;}
 
 
 .banner {background-image:url(banner.png);
