@@ -28,12 +28,12 @@ padding-left:15px;}
 }
 
 #loss td:nth-child(1):after{
-content:", loss"
+content:" lost"
 }
 
 
 #win td:nth-child(1):after{
-content:", won"
+content:" won"
 }
 
 #win td:nth-child(1), #win td:nth-child(4){color:green;
