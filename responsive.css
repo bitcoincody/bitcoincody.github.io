@@ -3,10 +3,8 @@
   display: inline-block;
   max-width: 40%;
   text-align: left;
-  padding: 30px;
-  background-color: #ddd;
-  border-radius: 3px;
-  margin: 15px;
+  padding: 20px;
+  margin: 10px;
   vertical-align: top;
 }
 .right-div
@@ -14,15 +12,13 @@
   display: inline-block;
   max-width: 40%;
   text-align: left;
-  padding: 30px;
-  background-color: #ddd;
-  border-radius: 3px;
-  margin: 15px;
+  padding: 20px;
+  margin: 10px;
 }
 .left-text, .right-text
 {
-  font: 16px 'Courier New', monospace;
-	color: #000;
+ font-weight:100;
+	color: white;
 }
 @media screen and (max-width: 600px) 
 {
@@ -30,4 +26,15 @@
     {
        max-width: 100%;
     }
+   
+}
+
+
+@media screen and (max-width: 400px) 
+{
+   table td:nth-child(2), table td:nth-child(7)
+    {
+       display:none!important;
+    }
+   
 }

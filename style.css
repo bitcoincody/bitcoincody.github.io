@@ -1,77 +1,115 @@
 body{margin:0px;
 background-color:black;
 color:white;
-
-  width: 90%;
-  margin: 0 auto; 
+font-family:roboto;
+margin: 0 auto; 
 }
+
+   table td:nth-child(1), table td:nth-child(2), table td:nth-child(7)
+   {font-size:10px;}
+   
+
+h2 b{font-weight:100;
+font-size:25px;}
+   
+   
+.cour {font-weight:100;
+ 
+padding-left:20px;}
+
 
 td:nth-child(1){text-align:left;
 padding-left:15px;}
-  
-#loss td:nth-child(5){color:red;
-font-weight:bold;
-}
-
-#loss td:nth-child(5):after{
-content:" loss"
-}
 
 
-#win td:nth-child(4):after{
-content:" won"
+
+#loss td:nth-child(1), #loss td:nth-child(5){color:red;
+
 }
 
-#win td:nth-child(4){color:green;
-font-weight:bold;
+#loss td:nth-child(1):after{
+content:", loss"
 }
-#neutral td:nth-child(3){
-color:black!important;
-font-weight:bold;}
+
+
+#win td:nth-child(1):after{
+content:", won"
+}
+
+#win td:nth-child(1), #win td:nth-child(4){color:green;
+
+}
+#neutral td:nth-child(3){ 
+}
 
 table td:nth-child(6),table td:nth-child(8) {
 display:none!important;}
  
- table {font-size:9pt;
+ table {font-size:13px;
 width:100%;
 
  text-align:left;
  
 }
 
+
+
+table td:nth-child(3),table td:nth-child(4),table td:nth-child(5) {
+font-weight:100;
+}
+
 td {max-width:10px;
 width:10px;}
 
+.banner-green {
+color:green;
+font-weight:600;
+}
+
+.banner-red {
+color:red;
+font-weight:600;
+}
+
+.banner-black {
+color:#000;
+font-weight:600;
+}
 
 .banner {background-image:url(banner.png);
-height:28px;
+background-size:43px;
+height:33px;
 background-repeat:no-repeat;
 padding-left:50px;
-padding-top:12px;
-
-margin-top:10px;}
+padding-top:10px;
+padding-bottom:0px;
+background-color:#f7f7f7;
+color:black;}
 
 td { 
  padding-bottom:10px;
 padding-top:10px;
 padding-left:10px;}
 
-td img{width:15px; 
-margin-bottom:-3px;}
+td img{width:18px; 
+margin-bottom:-5px;
+margin-right:6px;}
 table tr:nth-child(odd) td{
 
 
-background-color:#f2f2f2;
-color:#333;
+background-color:#f7f7f7;
+color:#000;
 }
 table tr:nth-child(even) td{
-background-color:white;
-color:#333;
+background-color:#f1f1f1;
+color:#000;
 }
 
 
 
 .table_header td{background-color:black!important;
 color:white!important;
-font-weight:bold;
+font-family:roboto;
+font-weight:100;
+font-size:16px!important;
 padding-bottom:9px;}
