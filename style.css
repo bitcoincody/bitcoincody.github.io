@@ -1,5 +1,5 @@
 body{margin:0px;
-background-color:black;
+background-color:#111;
 color:white;
 font-family:roboto;
 margin: 0 auto; 
@@ -23,18 +23,14 @@ padding-left:15px;}
 
 
 
+td:nth-child(1){font-weight:bold;}
+
 #loss td:nth-child(1), #loss td:nth-child(5){color:red;
 
 }
 
-#loss td:nth-child(1):after{
-content:" lost"
-}
-
-
-#win td:nth-child(1):after{
-content:" won"
-}
+a{text-decoration:none;}
+ 
 
 #win td:nth-child(1), #win td:nth-child(4){color:green;
 
@@ -72,7 +68,7 @@ font-weight:600;
 }
 
 .banner-black {
-color:#000;
+color:#999;
 font-weight:600;
 }
 
@@ -83,8 +79,8 @@ background-repeat:no-repeat;
 padding-left:50px;
 padding-top:10px;
 padding-bottom:0px;
-background-color:#f7f7f7;
-color:black;}
+background-color:black;
+color:white;}
 
 td { 
  padding-bottom:10px;
