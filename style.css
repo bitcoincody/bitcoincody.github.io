@@ -1,7 +1,7 @@
 body{margin:0px;
 background-color:#111;
 color:white;
-font-family:roboto;
+font-family:arial;
 margin: 0 auto; 
 }
 
@@ -25,14 +25,14 @@ padding-left:15px;}
 
 td:nth-child(1){font-weight:bold;}
 
-#loss td:nth-child(1), #loss td:nth-child(5){color:red;
+#loss td:nth-child(1), #loss td:nth-child(5){color:#d24119;
 
 }
 
 a{text-decoration:none;}
  
 
-#win td:nth-child(1), #win td:nth-child(4){color:green;
+#win td:nth-child(1), #win td:nth-child(4){color:#093;
 
 }
 #neutral td:nth-child(3){ 
@@ -58,12 +58,12 @@ td {max-width:10px;
 width:10px;}
 
 .banner-green {
-color:green;
+color:#093;
 font-weight:600;
 }
 
 .banner-red {
-color:red;
+color:#d24119;
 font-weight:600;
 }
 
@@ -109,3 +109,6 @@ font-family:roboto;
 font-weight:100;
 font-size:16px!important;
 padding-bottom:9px;}
+
+
+.sales{display:none!important;}
