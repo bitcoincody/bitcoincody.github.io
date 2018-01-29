@@ -29,12 +29,14 @@ td:nth-child(1){font-weight:bold;}
 
 }
 
-a{text-decoration:none;}
+ 
  
 
-#win td:nth-child(1), #win td:nth-child(4){color:#093;
+#win td:nth-child(1), #win td:nth-child(4){color:#093;}
+#win a:visited, #win a:link, #win a {color:#093;!important;}
 
-}
+
+
 #neutral td:nth-child(3){ 
 }
 
@@ -93,14 +95,16 @@ margin-bottom:-5px;
 margin-right:6px;}
 table tr:nth-child(odd) td{
 
-
 background-color:#f7f7f7;
 color:#000;
 }
 table tr:nth-child(even) td{
 background-color:#f1f1f1;
+border-top:2px solid black;
 color:#000;
 }
+
+
 
 
 
