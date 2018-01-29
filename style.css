@@ -120,6 +120,11 @@ float:left;
 }
 
 
+.banner-icon {
+
+width:120px; float:left;
+}
+
 .table_header td{background-color:black!important;
 color:white!important;
 font-weight:800;
