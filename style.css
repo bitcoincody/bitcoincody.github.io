@@ -112,7 +112,11 @@ color:#444;
 }
 
 
+.ejk {
 
+position:relative; color:red; left:140px; top:0px; font-weight:bold; font-size:22px;
+
+}
 
 
 .table_header td{background-color:black!important;
