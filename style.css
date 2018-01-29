@@ -123,6 +123,7 @@ float:left;
 .banner-icon {
 padding-left:16px;
 width:70px; float:left;
+padding-right:15px;
 }
 
 .table_header td{background-color:black!important;
