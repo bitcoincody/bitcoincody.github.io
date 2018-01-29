@@ -25,10 +25,8 @@ padding-left:15px;}
 
 td:nth-child(1){font-weight:bold;}
 
-#loss td:nth-child(1), #loss td:nth-child(5){color:#d24119;
-
-}
-
+#loss td:nth-child(1), #loss td:nth-child(5){color:#d24119;}
+#loss a:visited, #loss a:link, #loss a {color:#d24119;!important;}
  
  
 
@@ -95,12 +93,12 @@ margin-bottom:-5px;
 margin-right:6px;}
 table tr:nth-child(odd) td{
 
-background-color:#f7f7f7;
+background-color:#d8d8d8;
 color:#000;
 }
 table tr:nth-child(even) td{
 background-color:#f1f1f1;
-border-top:2px solid black;
+border-top:1px solid #8c8c8c;
 color:#000;
 }
 
