@@ -50,8 +50,11 @@ width:100%;
 
 
 
-table td:nth-child(3),table td:nth-child(4),table td:nth-child(5) {
-font-weight:400;
+table td:nth-child(3):after,table td:nth-child(4):after,table td:nth-child(5):after {
+content:" BTC";
+font-size:9px;
+
+padding-bottom:4px;
 }
 
 td {max-width:10px;
@@ -108,9 +111,9 @@ color:#000;
 
 .table_header td{background-color:black!important;
 color:white!important;
-font-weight:100;
+font-weight:800;
 font-size:16px!important;
 padding-bottom:9px;}
-
+.table_header td:after{content:""!important;}
 
 .sales{display:none!important;}
