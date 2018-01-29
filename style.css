@@ -3,6 +3,7 @@ background-color:black;
 color:white;
 font-family:arial;
 margin: 0 auto; 
+padding-top:18px;
 }
 
    table td:nth-child(1), table td:nth-child(2), table td:nth-child(7)
