@@ -51,7 +51,7 @@ width:100%;
 
 
 
-table td:nth-child(3):after,table td:nth-child(4):after,table td:nth-child(5):after {
+table td:nth-child(3):after{
 content:" BTC";
 font-size:9px;
 
