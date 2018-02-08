@@ -1,20 +1,15 @@
 body{margin:0px;
 background-color:black;
 color:white;
-font-family:arial;
+font-family:roboto;
 margin: 0 auto; 
 padding-top:18px;
 }
 
    table td:nth-child(1), table td:nth-child(2), table td:nth-child(7)
    {font-size:10px;}
-   
-
-h2 b{font-weight:100;
-font-size:25px;}
-   
-   
-.cour {font-weight:100;
+    
+.cour {font-weight:300;
  
 padding-left:20px;}
 
@@ -26,12 +21,15 @@ padding-left:15px;}
 
 td:nth-child(1){font-weight:bold;}
 
-#loss td:nth-child(1), #loss td:nth-child(5){color:#d24119;}
+#loss td:nth-child(1), #loss td:nth-child(5){color:#d24119; font-weight:900!important;}
 #loss a:visited, #loss a:link, #loss a {color:#d24119;!important;}
  
  
 
 #win td:nth-child(1), #win td:nth-child(4){color:#093;}
+
+#win td:nth-child(1), #win td:nth-child(4){color:#093; font-weight:900!important;}
+
 #win a:visited, #win a:link, #win a {color:#093;!important;}
 
 
@@ -55,8 +53,6 @@ table td:nth-child(3):after{
 content:" BTC";
 color:#555!important;
 font-size:12px;
-
-padding-bottom:4px;
 }
 
 td {max-width:10px;
@@ -90,23 +86,20 @@ margin-left:15px;}
 
 td { 
  padding-bottom:10px;
-padding-top:10px;
+padding-top:7px;
 padding-left:10px;}
 
 td img{width:18px; 
 margin-bottom:-5px;
-margin-right:6px;}
-table tr:nth-child(odd) td{
+margin-right:6px;} 
+table td{
+background-color:#000;
+ 
 
-background-color:#d8d8d8;
-color:#000;
+color:white;
 }
-table tr:nth-child(even) td{
-background-color:#f1f1f1;
-border-bottom:1px solid #8c8c8c;
-border-top:1px solid #8c8c8c;
-color:#000;
-}
+
+ 
 
 .stats {
 font-size:26px!important;
