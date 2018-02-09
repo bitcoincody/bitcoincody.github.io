@@ -133,4 +133,5 @@ border-bottom:1px solid #111;}
 
 .sales{display:none!important;}
 
-#loss td{background-color:#190000!important;}
+#loss td{background-color:#190000!important;
+color:#555;}
