@@ -1,6 +1,6 @@
 body{margin:0px;
 background-color:black;
-color:white;
+color:#b266b2;
 font-family:roboto;
 margin: 0 auto; 
 padding-top:18px;
@@ -51,7 +51,7 @@ width:100%;
 
 table td:nth-child(3):after{
 content:" BTC";
-color:#555!important;
+color:#999!important;
 font-size:12px;
 }
 
@@ -86,7 +86,7 @@ table td{
 background-color:#000;
  
 
-color:white;
+color:#ceb7ce;
 }
 
  
@@ -99,20 +99,21 @@ font-weight:100;
 }
 
 .header-text{font-weight:300;
-font-size:25px;
+font-size:28px;
 }
 
 
 .banner-icon {
 padding-left:16px;
-width:70px; float:left;
+ float:left;
 padding-right:15px;
  
-
+width:80px;
+height:80px;
 }
 
 .table_header td{background-color:black!important;
-color:white!important;
+
 font-weight:800;
 font-size:16px!important;
 padding-bottom:9px;}
