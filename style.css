@@ -98,6 +98,11 @@ color:#b266b2;
 font-weight:100;
 }
 
+.header-text{font-weight:300;
+font-size:25px;
+}
+
+
 .banner-icon {
 padding-left:16px;
 width:70px; float:left;
