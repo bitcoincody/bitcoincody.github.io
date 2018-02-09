@@ -72,17 +72,7 @@ font-weight:600;
 color:#999;
 font-weight:600;
 }
-
-.banner {background-image:url(banner.png);
-background-size:43px;
-height:33px;
-background-repeat:no-repeat;
-padding-left:60px;
-padding-top:13px;
-padding-bottom:0px;
-background-color:black;
-color:white;
-margin-left:15px;}
+ 
 
 td { 
  padding-bottom:10px;
