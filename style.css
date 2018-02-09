@@ -94,13 +94,16 @@ color:white;
 .stats {
 font-size:26px!important;
  margin-top:4px;
-color:#444; 
+color:#b266b2; 
+font-weight:100;
 }
 
 .banner-icon {
 padding-left:16px;
 width:70px; float:left;
 padding-right:15px;
+ 
+
 }
 
 .table_header td{background-color:black!important;
