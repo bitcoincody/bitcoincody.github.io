@@ -3,7 +3,7 @@ background-color:black;
 color:#b266b2;
 font-family:roboto;
 margin: 0 auto; 
-padding-top:18px;
+margin-top:-3px;;
 }
 
    table td:nth-child(1), table td:nth-child(2), table td:nth-child(7)
@@ -133,5 +133,11 @@ border-bottom:1px solid #111;}
 
 .sales{display:none!important;}
 
-#loss td{background-color:#190000!important;
-color:#555;}
+#loss td{background-color:#140800!important;
+color:#555;
+border-bottom:1px solid #321401;}
+
+#win td{background-color:#000a04!important;
+color:#555;
+border-bottom:1px solid #013214; 
+margin-top:-1px;}
