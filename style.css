@@ -1,9 +1,10 @@
 body{margin:0px;
 background-color:black;
 color:#b266b2;
-font-family:roboto;
+font-family:roboto!important;
 margin: 0 auto; 
-margin-top:-3px;;
+margin-top:10px; 
+
 }
 
    table td:nth-child(1), table td:nth-child(2), table td:nth-child(7)
@@ -21,14 +22,14 @@ padding-left:15px;}
 
 td:nth-child(1){font-weight:bold;}
 
-#loss td:nth-child(1), #loss td:nth-child(5){color:#d24119; font-weight:900!important;}
+#loss td:nth-child(1), #loss td:nth-child(5){color:#d24119; font-weight:300!important;}
 #loss a:visited, #loss a:link, #loss a {color:#d24119;!important;}
  
  
 
 #win td:nth-child(1), #win td:nth-child(4){color:#093;}
 
-#win td:nth-child(1), #win td:nth-child(4){color:#093; font-weight:900!important;}
+#win td:nth-child(1), #win td:nth-child(4){color:#093; font-weight:300!important;}
 
 #win a:visited, #win a:link, #win a {color:#093;!important;}
 
@@ -48,10 +49,12 @@ width:100%;
 }
 
 
+table td{background-color:#111!important;}
+
 
 table td:nth-child(3):after{
 content:" BTC";
-color:#999!important;
+font-weight:200;
 font-size:12px;
 }
 
@@ -60,23 +63,23 @@ width:10px;}
 
 .banner-green {
 color:#093;
-font-weight:600;
+font-weight:300;
 }
 
 .banner-red {
 color:#d24119;
-font-weight:600;
+font-weight:300;
 }
 
 .banner-black {
 color:#999;
-font-weight:600;
+font-weight:300;
 }
  
 
 td { 
- padding-bottom:10px;
-padding-top:7px;
+ padding-bottom:9px;
+padding-top:9px;
 padding-left:10px;}
 
 td img{width:18px; 
@@ -100,11 +103,14 @@ font-weight:100;
 
 .header-text{font-weight:300;
 font-size:28px;
+padding-top:3px;
+color:#CEB7CE;
 }
 
 
 
-a {font-weight:400;}
+a {font-weight:400;
+color:#CEB7CE;}
 
 
 .banner-icon {
@@ -116,28 +122,47 @@ width:80px;
 height:80px;
 }
 
-
-td {
-
-border-bottom:1px solid #2d282d;
-}
-
+ 
 .table_header td{background-color:black!important;
-color:#a64ca6!important;
+color:#CEB7CE!important;
 font-weight:400;
 text-transform:uppercase;
-font-size:12px!important;
-padding-bottom:5px;
-border-bottom:1px solid #111;}
+font-size:14px!important;
+padding-bottom:8px; }
 .table_header td:after{content:""!important;}
 
-.sales{display:none!important;}
+.navigation {
+
+font-size:19px;
+padding-left:15px;
+padding-bottom:50px;
+font-weight:200;
+letter-spacing:0.8px;
+color:#b2b2b2;
+margin-top:9px;
+margin-bottom:10px;
+
+}
+
+.navigation-block {
+margin-right:16px;
+float:left;
+background-color:#0c0c0c;
+border-top:1px solid #191919;
+border-left:1px solid #191919;
+padding-top:8px;
+padding-bottom:10px;
+padding-left:40px;
+padding-right:13px;
+border-radius:2px;
+background-repeat:no-repeat;
+background-position:15px 12px;
+}
 
 #loss td{background-color:#140800!important;
-color:#555;
-border-bottom:1px solid #321401;}
+ color:#6f5a4d; }
 
 #win td{background-color:#000a04!important;
-color:#555;
-border-bottom:1px solid #013214; 
+color:#335a42;
+ 
 margin-top:-1px;}
