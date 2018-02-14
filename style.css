@@ -1,6 +1,5 @@
 body{margin:0px;
 background-color:black;
-color:#b266b2;
 font-family:roboto!important;
 margin: 0 auto; 
 margin-top:10px; 
@@ -89,7 +88,7 @@ table td{
 background-color:#000;
  
 
-color:#ceb7ce;
+color:#7fa8c0;
 }
 
  
@@ -97,20 +96,20 @@ color:#ceb7ce;
 .stats {
 font-size:24px!important;
  margin-top:4px;
-color:#ceb7ce; 
+color:#7fa8c0; 
 font-weight:100;
 }
 
 .header-text{font-weight:300;
 font-size:28px;
 padding-top:3px;
-color:#CEB7CE;
+color:#7fa8c0;
 }
 
 
 
 a {font-weight:400;
-color:#CEB7CE;}
+color:#7fa8c0;}
 
 
 .banner-icon {
@@ -124,7 +123,7 @@ height:80px;
 
  
 .table_header td{background-color:black!important;
-color:#CEB7CE!important;
+color:#7fa8c0!important;
 font-weight:400;
 text-transform:uppercase;
 font-size:14px!important;
@@ -138,7 +137,7 @@ padding-left:15px;
 padding-bottom:50px;
 font-weight:200;
 letter-spacing:0.8px;
-color:#b2b2b2;
+color:red;
 margin-top:9px;
 margin-bottom:10px;
 
