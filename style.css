@@ -4,7 +4,7 @@ font-family:roboto!important;
 margin: 0 auto; 
 margin-top:10px; 
 }
-div.menu ul > li > b{color:blue!important;}
+ul > li > b{color:blue!important;}
 
 div.content > p {color:blue!important;}
 
