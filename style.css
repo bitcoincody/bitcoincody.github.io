@@ -3,8 +3,10 @@ background-color:black;
 font-family:roboto!important;
 margin: 0 auto; 
 margin-top:10px; 
-
 }
+
+body > div.pages > div.content > p {color:red!important;}
+
 
    table td:nth-child(1), table td:nth-child(2), table td:nth-child(7)
    {font-size:10px;}
