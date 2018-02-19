@@ -4,9 +4,22 @@ font-family:roboto!important;
 margin: 0 auto; 
 margin-top:10px; 
 }
-ul > li > b{color:blue!important;}
 
+
+ul > li > b{color:blue!important;}
 div.content > p {color:blue!important;}
+body > div.pages > div.heading > h1 {color:purple!important;}
+
+
+
+
+
+
+
+
+
+
+
 
 
    table td:nth-child(1), table td:nth-child(2), table td:nth-child(7)
