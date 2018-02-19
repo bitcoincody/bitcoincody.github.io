@@ -5,14 +5,14 @@ margin: 0 auto;
 margin-top:10px; 
 }
 
-ul > li{color:white!important;}
+ul > li{color:!important;}
 ul > li > b{color:#7fa8c0!important;}
 div.content > p {color:white!important;}
-body > div.pages > div.heading > h1 {color:#7fa8c0!important; text-decoration:none;}
+div.heading > h1 {color:#7fa8c0!important; text-decoration:none;}
 
 
 
-
+body > div.table_container > table {margin-bottom:-30px!important;}
 
 
 
