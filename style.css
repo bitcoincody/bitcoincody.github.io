@@ -10,10 +10,9 @@ ul > li > b{color:#7fa8c0!important; font-weight:600;}
 div.content > p {color:#999!important; font-size:17px!important; font-weight:300; max-width:500px;}
 div.heading > h1 {color:#093!important; text-decoration:none;
 
-background-image:url(http://swingtradewizard.com/logo.jpg);
+background-image:url(http://swingtradewizard.com/ball.jpg);
 background-repeat:no-repeat;
-padding-left:20px;
-background-image-size:10px;
+padding-left:20px; 
 }
 
 .foot {
