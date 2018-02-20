@@ -10,7 +10,9 @@ ul > li > b{color:#7fa8c0!important; font-weight:600;}
 div.content > p {color:#999!important; font-size:17px!important; font-weight:300; max-width:500px;}
 div.heading > h1 {color:#093!important; text-decoration:none;}
 
-
+.foot {
+border-top:1px solid #999!important;
+}
  
 
 body > div.table_container > table {border-top:1px solid #999; margin-bottom:-7px;}
