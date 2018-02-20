@@ -6,7 +6,7 @@ margin-top:10px;
 }
 
 ul > li{color:white!important;}
-ul > li > b{color:#7fa8c0!important; font-weight:600;}
+ul > li > b{color:#7fa8c0!important; font-weight:600; text-decoration:underline;}
 div.content > p {color:white!important;}
 div.heading > h1 {color:#7fa8c0!important; text-decoration:none;}
 
