@@ -11,8 +11,8 @@ div.content > p {color:#999!important; font-size:17px!important; font-weight:300
 div.heading > h1 {color:#093!important; text-decoration:none;}
 
 .foot {
-border-top:1px solid #999!important;
-color:#999;
+border-top:1px solid red!important;
+color:red;
 padding:20px;
 }
  
