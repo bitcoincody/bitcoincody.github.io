@@ -5,8 +5,8 @@ margin: 0 auto;
 margin-top:10px; 
 }
 
-ul > li{color:!important;}
-ul > li > b{color:#7fa8c0!important;}
+ul > li{color:white!important;}
+ul > li > b{color:#7fa8c0!important; font-weight:600;}
 div.content > p {color:white!important;}
 div.heading > h1 {color:#7fa8c0!important; text-decoration:none;}
 
