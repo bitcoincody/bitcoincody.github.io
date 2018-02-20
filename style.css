@@ -13,7 +13,7 @@ div.heading > h1 {color:#7fa8c0!important; text-decoration:none;}
 
 
 body > div.table_container > table {margin-bottom:-30px!important; z-index:9999!important;}
-.header {z-index:99!important;}
+.header, .insen {z-index:99!important;}
 
 
 
