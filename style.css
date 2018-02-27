@@ -26,7 +26,7 @@ padding:20px;
 body > div.table_container > table {  margin-bottom:-7px; }
 
 table, td {
-position:relative;
+position:absolute;
 z-index:999999;}
 
 
