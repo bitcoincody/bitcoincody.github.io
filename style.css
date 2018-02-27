@@ -23,10 +23,7 @@ padding:20px;
 }
  
 
-body > div.table_container > table {  margin-bottom:-10px; }
-
-table, td {
-position:absolute;
+body > div.table_container > table {  margin-bottom:-13px;  
 z-index:999999;}
 
 
