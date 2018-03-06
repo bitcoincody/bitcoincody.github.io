@@ -3,6 +3,7 @@ background-color:black;
 font-family:roboto!important;
 margin: 0 auto; 
 margin-top:10px; 
+
 }
 
 .ccc-widget, .ccc-header {  }
@@ -196,3 +197,5 @@ background-position:15px 12px;
 color:#335a42;
  
 margin-top:-1px;}
+
+h3 {color:blue!important;}
