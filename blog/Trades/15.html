@@ -143,7 +143,6 @@ hellos
 baseUrl = "https://widgets.cryptocompare.com/";
 var scripts = document.getElementsByTagName("script");
 var embedder = scripts[ scripts.length - 1 ];
-var cccTheme = {"General":{"background":"#000","float":"right"},"BigPrice":{"color":"#FFF"},"SmallPrice":{"color":"#FFF"},"Chart":{"labelColor":"#FFF"}};
 (function (){
 var appName = encodeURIComponent(window.location.hostname);
 if(appName==""){appName="local";}
@@ -154,10 +153,12 @@ var theUrl = baseUrl+'serve/v1/coin/header?fsym=DETH&tsyms=BTC';
 s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
 embedder.parentNode.appendChild(s);
 })();
-</script><hr style="opacity:0;">
+</script>
+
+<hr style="opacity:0;">
 <h2>Chart Analysis Screenshot:</h2>
 <img src="file:///home/user/day_trade/github/a.png">
-<h3>Chart Analysis Video:</h3>
+<h2>Chart Analysis Video:</2>
 <iframe width="354" height="280" src="https://www.youtube.com/embed/ZnuwB35GYMY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
  
 
