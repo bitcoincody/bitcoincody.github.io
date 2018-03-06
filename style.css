@@ -5,6 +5,10 @@ margin: 0 auto;
 margin-top:10px; 
 }
 
+.ccc-widget, .ccc-header {position:fixed!important;
+left:0px!important;
+margin-top:-30px;}
+
 ul > li{font-size:17px;}
 ul > li > b{color:#7fa8c0!important; font-weight:600;}
 div.content > p {color:#dfe3ee!important; font-size:17px!important; font-weight:300; max-width:500px;}
