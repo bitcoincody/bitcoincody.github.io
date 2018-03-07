@@ -238,3 +238,7 @@ margin-top:-1px;}
 			float:left; width: 300px;
 		}
 		hr{clear:both;}
+
+
+
+div.content > h2 {color:white!important;}
