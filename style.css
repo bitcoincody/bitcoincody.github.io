@@ -244,3 +244,5 @@ margin-top:-1px;}
 div.content > h2 {color:#7fa8c0!important}
 
 div.content a {text-decoration:underline;}
+
+#marquee-element > div > a {text-decoration:none!important;}
