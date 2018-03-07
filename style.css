@@ -247,4 +247,4 @@ div.content a {text-decoration:underline;}
 
 #marquee-element > div > a {text-decoration:none!important;}
 
-td > a {border-bottom:1px solid;}
+td > a {border-bottom:1px solid; text-decoration:none;}
