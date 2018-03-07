@@ -38,3 +38,42 @@
     }
    
 }
+
+
+
+@media screen and (min-width: 850px) {
+/* biggest screen */
+
+}
+
+@media screen and (max-width: 850px) {
+/* smallest screen */
+
+ 
+.pages{padding-left:0px;}
+body{padding-left:10px;
+}
+.stats{font-size:12px;}
+
+.menu {width:100%; padding:0px; margin:0px;}
+
+.menu a{  padding-left:3px; padding-right:3px; text-decoration:none; background-color:#090909;}
+li {display: inline-block;float: left;padding: 10px}
+
+.navigation,.banner-icon,.navigation-block {display:none;}
+
+li {padding:3px;}
+
+
+
+
+}
+
+ 
+
+
+
+
+
+
+
