@@ -1,0 +1,119 @@
+.left-div
+{
+  display: inline-block;
+  max-width: 40%;
+  text-align: left;
+  padding: 20px;
+  margin: 10px;
+  vertical-align: top;
+}
+.right-div
+{
+  display: inline-block;
+  max-width: 40%;
+  text-align: left;
+  padding: 20px;
+  margin: 10px;
+}
+.left-text, .right-text
+{
+ font-weight:100;
+	color: white;
+}
+@media screen and (max-width: 600px) 
+{
+  .left-div, .right-div
+    {
+       max-width: 100%;
+    }
+   
+}
+
+
+@media screen and (max-width: 400px) 
+{
+   table td:nth-child(2), table td:nth-child(7)
+    {
+       display:none!important;
+    }
+   
+}
+
+
+
+@media screen and (min-width: 850px) {
+/* biggest screen */
+
+}
+
+@media screen and (max-width: 850px) {
+/* smallest screen */
+
+ 
+.pages{padding-left:0px;}
+body{padding-left:10px;
+}
+.stats{font-size:12px;}
+
+.menu {width:100%; padding:0px; margin:0px;}
+
+.menu a{  padding-left:3px; padding-right:3px; text-decoration:none; background-color:#090909;}
+li {display: inline-block;float: left;padding: 10px}
+
+.navigation,.banner-icon,.navigation-block {display:none;}
+
+li {padding:3px;}
+}
+
+ 
+@media screen and (min-width: 850px) {
+     .footer_element  {
+       margin-left:320px!important;
+max-width:500px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+      .footer_element  { 
+       margin-left:0px!important;
+    }
+
+.heading {margin-top:20px;}
+
+/*responsive*/
+ div.content > p:nth-child(1)
+{padding-top:21px!important;}
+
+
+.content h3,
+.content h2,
+body > div.pages > div.content > p:nth-child(1),
+.content,
+.heading
+{
+    margin-right:0px!important;
+    padding:0px;
+    margin-left:0px!important;}
+
+.heading {padding-left:13px!important;}
+div.pages > div.content {padding-left:13px;
+padding-right:13px;}
+
+.content h3,
+.content h2 {margin-left:-11px!important;
+padding-left:13px;}
+
+body{padding-left:0px!important;}
+.header-text,
+.stats,.idc-foot,.footer_element,
+#IDCommentsNewThreadCover{padding-left:28px;
+width:90%!important;}
+
+a.footer_element {margin-left:30px!important;} 
+}
+
+
+
+
+
+
