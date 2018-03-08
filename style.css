@@ -248,3 +248,8 @@ div.content a {text-decoration:underline;}
 #marquee-element > div > a {text-decoration:none!important;}
 
 td > a {text-decoration:underline;}
+
+
+
+.footer_element {color:#dfe3ee!important;
+font-weight:600;}
