@@ -332,8 +332,8 @@ color:white!important;
               letter-spacing:1.3;
 }
 
-.footer_element {font-weight:100;
-font-size:15px;}
+ .footer_element {font-weight:100;
+font-size:15px!important;} 
  a.footer_element{
     color:lightblue!important;
 font-weight:100;}
