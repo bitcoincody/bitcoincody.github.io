@@ -96,14 +96,20 @@ body > div.pages > div.content > p:nth-child(1),
     margin-left:0px!important;}
 
 .heading {padding-left:13px!important;}
-div.pages > div.content {padding-left:13px;}
+div.pages > div.content {padding-left:13px;
+padding-right:13px;}
 
 .content h3,
 .content h2 {margin-left:-11px!important;
 padding-left:13px;}
 
 body{padding-left:0px!important;}
+.header-text,
+.stats,.idc-foot,.footer_element,
+#IDCommentsNewThreadCover{padding-left:28px;
+width:90%!important;}
 
+a.footer_element {margin-left:30px!important;} 
 }
 
 
