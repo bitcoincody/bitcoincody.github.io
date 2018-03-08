@@ -80,6 +80,30 @@ max-width:500px;
 
 .heading {margin-top:20px;}
 
+/*responsive*/
+ div.content > p:nth-child(1)
+{padding-top:21px!important;}
+
+
+.content h3,
+.content h2,
+body > div.pages > div.content > p:nth-child(1),
+.content,
+.heading
+{
+    margin-right:0px!important;
+    padding:0px;
+    margin-left:0px!important;}
+
+.heading {padding-left:13px!important;}
+div.pages > div.content {padding-left:13px;}
+
+.content h3,
+.content h2 {margin-left:-11px!important;
+padding-left:13px;}
+
+body{padding-left:0px!important;}
+
 }
 
 
