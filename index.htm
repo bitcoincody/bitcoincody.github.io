@@ -9,7 +9,7 @@
 
 <title>(16W/7L) Swing Trade Wizard</title>
 </head>
-
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
 
 
@@ -121,6 +121,25 @@ So because I am not generally looking for huge gain percentages, and prefer to l
 </html>
 </div> 
 <br><br><a class="footer_element" style="text-decoration:none!important; background-image:url(http://swingtradewizard.com/twitter-32.png); padding-left:30px; background-size:20px; background-repeat:no-repeat;" href="https://twitter.com/messages/compose?recipient_id=3220565828" target="_blank">Send Wiz a direct message</a>
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
 
 <script>
 var idcomments_acct = '280111512b77ce959cfae45cb5cd89ea';
