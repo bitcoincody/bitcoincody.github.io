@@ -127,18 +127,19 @@ Stoploss at 0.0072
 baseUrl = "https://widgets.cryptocompare.com/";
 var scripts = document.getElementsByTagName("script");
 var embedder = scripts[ scripts.length - 1 ];
-var cccTheme = {"General":{"background":"#111","priceText":"#DAA520"},"Currency":{"color":"#DAA520"}};
+var cccTheme = {"General":{}};
 (function (){
 var appName = encodeURIComponent(window.location.hostname);
 if(appName==""){appName="local";}
 var s = document.createElement("script");
 s.type = "text/javascript";
 s.async = true;
-var theUrl = baseUrl+'serve/v3/coin/header?fsyms=DOGE&tsyms=BTC';
+var theUrl = baseUrl+'serve/v3/coin/header?fsyms=BTC&tsyms=BTC,USD';
 s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
 embedder.parentNode.appendChild(s);
 })();
 </script>
+
 
 
 <br><h2>Chart Analysis Video</h2>
