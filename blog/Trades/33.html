@@ -130,13 +130,14 @@ Stoploss at - 0.0072
 baseUrl = "https://widgets.cryptocompare.com/";
 var scripts = document.getElementsByTagName("script");
 var embedder = scripts[ scripts.length - 1 ];
+var cccTheme = {"General":{"borderWidth":"0px","borderColor":"#000","borderRadius":"0px"},"Header":{"background":"#000","color":"#FFF"},"Followers":{"background":"#000","color":"#000","borderColor":"#000","counterBorderColor":"#000","counterColor":"#000"},"EvenRow":{"background":"#444","color":"#FFF","borderColor":"#444"},"OddRow":{"background":"#121212","color":"#FFF","borderColor":"#444"},"Trend":{"colorUp":"#69ffc6","colorDown":"#ffa99e","colorUnchanged":"#FFF"},"Conversion":{"background":"#000","color":"#CCC"}};
 (function (){
 var appName = encodeURIComponent(window.location.hostname);
 if(appName==""){appName="local";}
 var s = document.createElement("script");
 s.type = "text/javascript";
 s.async = true;
-var theUrl = baseUrl+'serve/v1/coin/header?fsym=BTC&tsyms=BTC,USD';
+var theUrl = baseUrl+'serve/v1/coin/list?fsym=XMR&tsyms=BTC,USD,CAD';
 s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
 embedder.parentNode.appendChild(s);
 })();
