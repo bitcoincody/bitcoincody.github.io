@@ -6,6 +6,15 @@ margin-top:10px;
 
 }
 
+body > div.menu > ul > li > ul > li { float:left; 
+margin-right:10px;}
+
+
+body > div.menu > ul > li > ul {
+
+margin-right:10px;}
+
+
 .ccc-widget, .ccc-header {  }
 
 ul > li{font-size:17px;}
