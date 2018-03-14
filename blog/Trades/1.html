@@ -110,18 +110,22 @@ VIBE
 baseUrl = "https://widgets.cryptocompare.com/";
 var scripts = document.getElementsByTagName("script");
 var embedder = scripts[ scripts.length - 1 ];
-var cccTheme = {"General":{"background":"#000","borderColor":"#111","borderRadius":"0px"},"Header":{"background":"#000","color":"#7fa8c0"},"Followers":{"background":"#000","color":"#000","borderColor":"#000","counterBorderColor":"#000","counterColor":"#000"},"EvenRow":{"background":"#121212","color":"#7fa8c0","borderColor":"#000"},"OddRow":{"background":"#121212","color":"#7fa8c0","borderColor":"#121212"},"Trend":{"colorUp":"green","colorDown":"red","colorUnchanged":"#FFF"},"Conversion":{"background":"#000","lineHeight":"10px","color":"#CCC"}};
+var cccTheme = {"General":{"borderWidth":"0px","borderColor":"#121212","borderRadius":"0px 0px 0 0"},"Header":{"background":"#121212","color":"#FFF"},"Followers":{"background":"#121212","color":"#121212","borderColor":"#121212","counterBorderColor":"#121212","counterColor":"#121212"},"EvenRow":{"background":"#222","color":"#FFF","borderColor":"#222"},"OddRow":{"background":"#121212","color":"#FFF","borderColor":"#121212"},"Trend":{"colorUp":"#093","colorDown":"#d24119","colorUnchanged":"#FFF"},"Conversion":{"background":"#121212","lineHeight":"1","color":"#121212"}};
 (function (){
 var appName = encodeURIComponent(window.location.hostname);
 if(appName==""){appName="local";}
 var s = document.createElement("script");
 s.type = "text/javascript";
 s.async = true;
-var theUrl = baseUrl+'serve/v1/coin/list?fsym=VIBE&tsyms=BTC,USD';
+var theUrl = baseUrl+'serve/v1/coin/list?fsym=VIBE&tsyms=BTC,USD,EUR';
 s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
 embedder.parentNode.appendChild(s);
 })();
 </script>
+
+
+
+
 
 <h2>VIBE Analysis Video</h2>
 <a target="_blank" href="https://www.youtube.com/embed/Creating playlist: Trading Calls">Watch in fullscreen</a> - <a href="https://www.youtube.com/watch?v=Creating playlist: Trading Calls&list=PLIEgpo-TeCAQ8RezjUpMqgQDUts2pXFg2" target="_blank">Watch in playlist</a><br><br>
