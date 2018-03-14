@@ -9,27 +9,33 @@ u {color:white!important;
 padding-left:5px;
 background:black!important;
 font-size:19px;
+
 padding-right:5px;}
 
 body > div.pages > div.content > p:nth-child(3) > u {
-color:gold!important;
+color:white!important;
 padding-left:5px;
 background:black!important;
-font-size:19px;
+font-size:17px;
+letter-spacing:1.1;
+
 padding-right:5px;}
 
 body > div.pages > div.content > p:nth-child(4) > u {
 color:#093!important;
 padding-left:5px;
 background:black!important;
-font-size:19px;
+font-size:17px;
+letter-spacing:1.1;
+
 padding-right:5px;}
 
 body > div.pages > div.content > p:nth-child(5) > u {
 color:#d24119!important;
 padding-left:5px;
 background:black!important;
-font-size:19px;
+font-size:17px;
+letter-spacing:1.1;
 padding-right:5px;}
 
 
