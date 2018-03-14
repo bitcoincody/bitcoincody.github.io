@@ -1,9 +1,36 @@
 u {color:white!important;
 padding-left:5px;
 background:black!important;
-
 font-size:19px;
 padding-right:5px;}
+
+body > div.pages > div.content > p:nth-child(3) > u {
+color:white!important;
+padding-left:5px;
+background:black!important;
+font-size:19px;
+padding-right:5px;}
+
+body > div.pages > div.content > p:nth-child(4) > u {
+color:green!important;
+padding-left:5px;
+background:black!important;
+font-size:19px;
+padding-right:5px;}
+
+body > div.pages > div.content > p:nth-child(5) > u {
+color:red!important;
+padding-left:5px;
+background:black!important;
+font-size:19px;
+padding-right:5px;}
+
+
+
+
+
+ 
+
 
 body{margin:0px;
 background-color:black;
