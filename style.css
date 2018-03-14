@@ -1,3 +1,10 @@
+body > div.pages > div.content > p:nth-child(7) > div {
+ margin-top:-277px;
+margin-left:150px;}
+
+
+
+
 u {color:white!important;
 padding-left:5px;
 background:black!important;
