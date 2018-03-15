@@ -1,3 +1,4 @@
+
 .ccc-widget{
  margin-top:-225px;
 margin-left:180px;
@@ -230,7 +231,7 @@ padding-bottom:8px; }
 
 font-size:18px;
 padding-left:15px;
-padding-bottom:50px;
+
 font-weight:200;
 letter-spacing:0.8px;
 color:white;
@@ -239,6 +240,18 @@ margin-bottom:10px;
 
 }
 
+.header-background{
+
+background-image:url(https://pbs.twimg.com/media/DTzx-_5W4AEyxNJ.jpg:large);
+}
+.navigation{padding-bottom:43px;}
+.header-text{padding-top:40px;}
+.banner-icon{
+opacity:0.5;
+border-radius:110px!important;
+padding:30px;
+width:100px;
+height:100px;}
 .navigation-block {
 margin-right:16px;
 float:left;
