@@ -36,7 +36,7 @@ function scrollDown(el){
             if (self.times == 1200) {
                 return self.moveBack();
             }
-        }, 125);
+        }, 100);
     }
 
     this.startMove = function() {
