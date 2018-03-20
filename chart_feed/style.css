@@ -18,29 +18,33 @@ margin-bottom:-5px;}
 
 #tier01,#tier02 { 
 border:1px solid #6f7d9c;
-
 }
-
 #tier03,#tier04 {
 opacity:0.80;
 border:1px solid #616d88;
-
 }
-
-#tier05,#tier06,#tier07 {
+#tier05,#tier04 {
+opacity:0.70;
+border:1px solid #616d88;
+}
+#tier07,#tier04 {
 opacity:0.60;
-border:1px solid darkblue;
-
+border:1px solid #616d88;
 }
-
-#tier08,#tier09,#tier10 {
+#tier09,#tier04 {
 opacity:0.50;
-border:1px solid #999;
-
+border:1px solid #616d88;
 }
-
-#tier11,#tier12,#tier13,#tier14,#tier15 {
+#tier11,#tier04 {
 opacity:0.40;
-border:1px solid red;
+border:1px solid #616d88;
 }
- 
+#tier13,#tier04 {
+opacity:0.30;
+border:1px solid #616d88;
+}
+#tier15 {
+opacity:0.20;
+border:1px solid #616d88;
+}
+
