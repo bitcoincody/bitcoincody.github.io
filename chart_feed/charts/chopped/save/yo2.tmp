@@ -1,4 +1,4 @@
-Image: tier9-99-2043624501.gif
+Image: tier9-99-1579121096.gif
   Format: GIF (CompuServe graphics interchange format)
   Mime type: image/gif
   Class: DirectClass
@@ -172,11 +172,11 @@ Image: tier9-99-2043624501.gif
   Compression: LZW
   Orientation: Undefined
   Properties:
-    date:create: 2018-03-19T22:51:55-07:00
-    date:modify: 2018-03-19T22:51:55-07:00
+    date:create: 2018-03-19T23:05:54-07:00
+    date:modify: 2018-03-19T23:05:54-07:00
     signature: 9cdcbb73cb987c2094df3ad2503a6006f60b8677ffcc1a267f55aec00d6bfda4
   Artifacts:
-    filename: tier9-99-2043624501.gif
+    filename: tier9-99-1579121096.gif
     fuzz: 25%
     verbose: true
   Tainted: True
