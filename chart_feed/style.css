@@ -29,18 +29,18 @@ border:1px solid #616d88;
 
 #tier05,#tier06,#tier07 {
 opacity:0.60;
-border:1px solid #535e75;
+border:1px solid darkblue;
 
 }
 
 #tier08,#tier09,#tier10 {
 opacity:0.50;
-border:1px solid #454e61;
+border:1px solid #999;
 
 }
 
 #tier11,#tier12,#tier13,#tier14,#tier15 {
 opacity:0.40;
-border:1px solid #333;
+border:1px solid red;
 }
  
