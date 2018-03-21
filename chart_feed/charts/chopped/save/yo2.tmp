@@ -1,4 +1,4 @@
-Image: tier15-97-663631848.gif
+Image: tier15-97-1875430427.gif
   Format: GIF (CompuServe graphics interchange format)
   Mime type: image/gif
   Class: DirectClass
@@ -179,11 +179,11 @@ Image: tier15-97-663631848.gif
   Compression: LZW
   Orientation: Undefined
   Properties:
-    date:create: 2018-03-20T04:30:18-07:00
-    date:modify: 2018-03-20T04:30:18-07:00
+    date:create: 2018-03-20T17:12:47-07:00
+    date:modify: 2018-03-20T17:12:47-07:00
     signature: c99e7afa14c056f1641558effea8f4103eecad70da2bcb3ae724575a0e1058a8
   Artifacts:
-    filename: tier15-97-663631848.gif
+    filename: tier15-97-1875430427.gif
     fuzz: 30%
     verbose: true
   Tainted: True
