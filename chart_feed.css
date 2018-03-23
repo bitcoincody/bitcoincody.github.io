@@ -1,0 +1,289 @@
+html {
+  overflow:   scroll;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+
+.resource_link_div {margin:40px;
+color:#444;
+text-align:center;
+width:50%;
+ 
+font-size:18px; line-height:33px;
+font-weight:300;
+
+margin: 0 auto;
+margin-bottom:50px;
+margin-top:50px;
+}
+.resource_link {
+font-size:20px;
+font-weight:400;
+
+text-decoration:none;
+padding-bottom:3px;
+border-bottom:1px solid purple;
+}
+
+body{margin:0px;
+padding:0px;
+font-family:roboto;
+background-color:black;
+color:white;
+margin-right:300px;
+margin-left:15px;}
+/* https://cum.sebezua.com/emotes/feelsgood.png */
+/* https://cum.sebezua.com/emotes/hieverybody.png */
+/* https://cum.sebezua.com/emotes/maxgainz.gif */
+
+.wiz { background-image:url(https://cum.sebezua.com/emotes/shrug.png);
+
+background-repeat:no-repeat;
+background-size:70px;
+background-position:top right;
+height:90px;
+width:90px;
+position:fixed;
+top:2px;
+right:2px; 
+}
+
+
+h2 {font-size:25px;
+padding-left:10px;
+font-weight:100;
+letter-spacing:0.0;
+color:lightblue;}
+
+
+
+
+.sidebar{position:fixed;
+ 
+width:300px;
+padding:0px;
+margin:0px;
+right:0px;
+z-index:99999999!important;
+color:lightblue;
+ font-family:roboto;
+font-size:17px;
+font-weight:100;
+top:5px;} 
+
+div.ccc-widget.ccc-multi > div > a > div > img {width:17px!important; height:17px!important;}
+
+
+span > img {display:none!important;}
+
+.stats *{
+ line-height:20px!important;
+padding:0px!important;
+font-size:11px!important;
+margin:0px!important; 
+font-family:roboto;
+background:black!important;
+font-weight:400!important;
+} 
+  
+
+.stats{
+text-align:center;
+width:95%;
+margin-top:-10px!important;
+ opacity:0.9;
+  margin: 0 auto; 
+}
+
+.chatbox-title{
+position:relative;
+top:3px;
+ 
+padding-bottom:15px;
+ 
+padding-left:20px;
+}
+ 
+
+
+
+.chatbox-title2{
+color:pink;
+position:fixed;
+top:30px;
+width:120px;
+line-height:26px;
+font-size:15px;
+right:65px;
+font-weight:400;
+text-align:center;
+letter-spacing:2.0;
+}
+.chatbox-title2 b{
+font-size:16px;line-height:19px; font-weight:400; 
+color:lightblue; letter-spacing:0.1;
+ }
+
+
+
+.chatbox-title3{
+color:#555;
+position:fixed;
+top:68px;
+font-size:10px;
+right:75px;
+font-weight:300;
+text-align:center;
+letter-spacing:1.9;
+}
+
+.don{
+color:lightblue;
+font-size:14px; 
+font-weight:600;
+padding:0px;
+letter-spacing:0.1;
+margin-left:10px;
+margin-right:9px;
+padding-right:2px;
+padding-left:3px;
+margin-top:52px;}
+
+
+.stats{margin-bottom:-69px;
+
+ }
+
+
+.chat {
+margin-right:-17px;
+}
+
+input {background-color:#111;
+
+text-align:right;
+border:0px;
+height:34px;
+margin-top:12px;
+margin-left:9px;
+position:relative; 
+ padding-right:11px;
+color:lightblue;
+font-size:19px;
+font-weight:100;
+letter-spacing:1.; 
+border:1px solid #333;
+
+z-index:9999999999!important;}
+
+#btn{font-weight:300!important;
+padding-left:10px;
+padding-right:10px;
+ 
+margin-left:-5px;
+height:34px;
+ opacity:0.8;
+border:1px solid #333;
+background-color:#111;
+z-index:9999999!important;
+
+}
+.chat{margin-top:40px!important;
+z-index:99!important;}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+
+
+ 
+.poll {opacity:0.1!important;}
+.poll:hover{opacity:1!important;}
+
+.biz {
+ 
+}
+
+.biz img{ padding-bottom:7px;
+padding-right:22px;
+float:left;}
+.share-charts { 
+width:90px!important;
+ }
+ 
+.share-chart-container { 
+height:400px;
+z-index:99999999999}
+
+.box
+{
+  display: inline-block;
+   width: 100px;
+  height: 100px;
+  color:white;
+  }
+.box img{
+width:50%;
+}
+ 
+
+
+.links{padding-left:10px;}
+.links a{margin-right:10px;} 
+
+#tier01,#tier02,#tier03,#tier04,#tier05,#tier06,#tier07,#tier08,#tier09,#tier10,#tier11,#tier12,#tier13,#tier14,#tier15
+{
+ 
+}
+
+#tier01,#tier02 { 
+
+ 
+}
+#tier03,#tier04 {
+
+opacity:0.90;
+ 
+}
+#tier05,#tier06 {
+opacity:0.80;
+ 
+}
+#tier07,#tier08 {
+opacity:0.70; 
+-webkit-filter: grayscale(30%);
+
+}
+#tier09,#tier10 {
+opacity:0.50;   -webkit-filter: grayscale(40%);
+
+}
+#tier11,#tier12 {
+opacity:0.40;   -webkit-filter: grayscale(60%);
+
+}
+#tier13,#tier14 {
+opacity:0.30;
+   -webkit-filter: grayscale(80%);
+
+}
+#tier15 {
+opacity:0.30;
+   -webkit-filter: grayscale(100%);
+}
+
+hr {opacity:0}
+
+@media only screen and (max-width: 514px) {
+.sidebar, h1,h2{display:none}
+.poll {width:100%!important;}
+
+
+body{margin-right:0px;}	 
+    }
