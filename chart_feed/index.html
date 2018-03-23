@@ -1,81 +1,1255 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-<link rel="shortcut icon" type="image/png" href="http://swingtradewizard.com/favicon.png"/>
-  <title>Chart Scanner - 24hr</title>
-<style>
-body{margin:0px; background-color:black;overflow:hidden;}
-  iframe{margin-right:0.8px;
-z-index:9;}
+<link rel="stylesheet" type="text/css" href="http://swingtradewizard.com/chart_feed/style.css">
+<html>
+<link rel="stylesheet" type="text/css" href="/home/user/day_trade/chart_feed.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<div class="sidebar">
+<div class="wiz"></div>
 
-.donate {
-position:fixed;
-bottom:3px;
-right:3px;
-z-index:9999;
-background-color:black;
-opacity:0.7;
-color:lightgreen;
-letter-spacing:1.0px;
-font-size:13px;
-font-family:arial;
-padding:20px;
-font-weight:900;
+<span style="font-size:11px; color:lightblue;">
+<span class="don">updated </span>
+Wed Mar 21 05:39 UTC
+</span>
+<br>
+
+<input style="width:70px" onkeydown="upperCaseF(this)" value="" type="text" id="symbol_input" />
+<input class="submit_on_enter" type="button" id="btn" value="🔍" />
+
+
+<div class="chatbox-title2"><b>Swing Trade<br> Wizard</b>
+</div>
+<span style="position:fixed; top:3px; right:0px;" class="don">donate</span>
+
+
+
+
+<div class="chatbox-title">⮤ symbol</div>
+
+
+
+<div class="stats">
+
+
+
+</div>
+
+<script>
+function upperCaseF(a){
+setTimeout(function(){
+a.value = a.value.toUpperCase();
+}, 1);
 }
+</script>
+<script>
 
-.date {position:fixed;
-top:3px;
-right:3px;
-z-index:9999;
-background-color:black;
-opacity:0.7;
-color:lightgreen;
-letter-spacing:1.0px;
-font-size:11px;
-font-family:arial;
-padding:20px;
-}
-
-.date a {color:#98b4ec;
-text-decoration:none;
-font-weight:600;
-padding-bottom:3px;
-border-bottom:1px solid #98b4ec;
-margin-right:10px;}
-</style>
-</head>
+$("#btn").click( function() {
+var url = "http://swingtradewizard.com/symbol/" + $("#symbol_input").val();
+window.open(url);
 
 
-<body> 
+});
+</script>
+<div class="chat">
+<script id="cid0020000182624580311" data-cfasync="false" async src="http://st.chatango.com/js/gz/emb.js" style="width: 100%;height: 74%;">{"handle":"swingtrading","arch":"js","styles":{"a":"000000","b":100,"c":"111111","d":"add8e6","e":"000000","g":"add8e6","h":"080808","j":"add8e6","k":"222222","l":"000000","m":"ccccff","p":"10","q":"000000","r":100,"ab":false,"usricon":0,"sbc":"000000","surl":0,"allowpm":0,"fwtickm":1}}</script>
 
-<iframe id="frame" src="frames/iframe1.html" frameborder="0" scrolling="no" width= "50" height = "3500"></iframe>
-<iframe id="frame" src="frames/iframe2.html" frameborder="0" scrolling="no" width= "50" height = "3500"></iframe>
-<iframe id="frame" src="frames/iframe3.html" frameborder="0" scrolling="no" width= "50" height = "3500"></iframe>
-<iframe id="frame" src="frames/iframe4.html" frameborder="0" scrolling="no" width= "50" height = "3500"></iframe>
-<iframe id="frame" src="frames/iframe5.html" frameborder="0" scrolling="no" width= "50" height = "3500"></iframe>
-<iframe id="frame" src="frames/iframe6.html" frameborder="0" scrolling="no" width= "50" height = "3500"></iframe>
-<iframe id="frame" src="frames/iframe7.html" frameborder="0" scrolling="no" width= "50" height = "3500"></iframe>
-<iframe id="frame" src="frames/iframe8.html" frameborder="0" scrolling="no" width= "50" height = "3500"></iframe>
-<iframe id="frame" src="frames/iframe9.html" frameborder="0" scrolling="no" width= "50" height = "3500"></iframe>
-<iframe id="frame" src="frames/iframe10.html" frameborder="0" scrolling="no" width= "50" height = "3500"></iframe>
-<iframe id="frame" src="frames/iframe11.html" frameborder="0" scrolling="no" width= "50" height = "3500"></iframe>
-<iframe id="frame" src="frames/iframe12.html" frameborder="0" scrolling="no" width= "50" height = "3500"></iframe>
-<iframe id="frame" src="frames/iframe13.html" frameborder="0" scrolling="no" width= "50" height = "3500"></iframe>
-<iframe id="frame" src="frames/iframe14.html" frameborder="0" scrolling="no" width= "50" height = "3500"></iframe>
-<iframe id="frame" src="frames/iframe15.html" frameborder="0" scrolling="no" width= "50" height = "3500"></iframe>
-<iframe id="frame" src="frames/iframe16.html" frameborder="0" scrolling="no" width= "50" height = "3500"></iframe>
-<iframe id="frame" src="frames/iframe17.html" frameborder="0" scrolling="no" width= "50" height = "3500"></iframe>
-<iframe id="frame" src="frames/iframe18.html" frameborder="0" scrolling="no" width= "50" height = "3500"></iframe>
-<iframe id="frame" src="frames/iframe19.html" frameborder="0" scrolling="no" width= "50" height = "3500"></iframe>
-<iframe id="frame" src="frames/iframe20.html" frameborder="0" scrolling="no" width= "50" height = "3500"></iframe>
-<iframe id="frame" src="frames/iframe21.html" frameborder="0" scrolling="no" width= "50" height = "3500"></iframe>
-<iframe id="frame" src="frames/iframe22.html" frameborder="0" scrolling="no" width= "50" height = "3500"></iframe>
-<iframe id="frame" src="frames/iframe23.html" frameborder="0" scrolling="no" width= "50" height = "3500"></iframe>
-<iframe id="frame" src="frames/iframe24.html" frameborder="0" scrolling="no" width= "50" height = "3500"></iframe>
-<iframe id="frame" src="frames/iframe25.html" frameborder="0" scrolling="no" width= "50" height = "3500"></iframe>
-<div class="donate"><a href="http://swingtradewizard.com/blog/Donate.html" target="_blank">Donate</a></div>
-<script src="http://static.getclicky.com/js" type="text/javascript"></script>
-<script type="text/javascript">try{ clicky.init(101069020); }catch(e){}</script>
-<noscript><p><img alt="Clicky" style="display:none" width="1" height="1" src="http://in.getclicky.com/101069020ns.gif" /></p></noscript>
-<div class="date" style="padding:5px; text-decoration:none!important; background-image:url(http://swingtradewizard.com/twitter-32.png); padding-left:28px; background-size:20px; background-position:5px; background-repeat:no-repeat;"><a href="http://twitter.com/swingtradewiz" target="_blank">SwingTradeWiz</a> Starting new run: Tue Mar 20 03:50:57 PDT 2018</div>
+</div>
+
+
+
+
+<div style="height:3px;"></div>
+<div class="stats">
+<div style="height:6px;"></div>
+
+
+<script type="text/javascript">
+baseUrl = "https://widgets.cryptocompare.com/";
+var scripts = document.getElementsByTagName("script");
+var embedder = scripts[ scripts.length - 1 ];
+var cccTheme = {"General":{"background":"#121212","borderColor":"#000"},"Tabs":{"background":"#000","color":"#555","borderColor":"#333","activeBackground":"#000","activeColor":"#555"},"Row":{"color":"#add8e6","borderColor":"#000"},"Trend":{"colorUp":"#28b161","colorDown":"#c94234"},"Conversion":{"background":"#000","lineHeight":"1px"}};
+(function (){
+var appName = encodeURIComponent(window.location.hostname);
+if(appName==""){appName="local";}
+var s = document.createElement("script");
+s.type = "text/javascript";
+s.async = true;
+var theUrl = baseUrl+'serve/v1/coin/multi?fsyms=BTC,ETH,XMR&tsyms=USD,EUR,CNY,CAD';
+s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+embedder.parentNode.appendChild(s);
+})();
+</script>
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="charts">
+<hr><div class=resource_link_div><a class='resource_link' href='https://www.investopedia.com/articles/technical/061801.asp'>What qualifies a person as a day trader?</a><br>Investopedia</div></hr>
+<h2>high frequenecy of red - SORTED BY size</h2>
+<img id=tier07 src=red/tier07-37-2100017051.gif>
+<img id=tier14 src=red/tier14-10-2014010098.gif>
+<img id=tier05 src=red/tier05-72-1724018929.gif>
+<img id=tier13 src=red/tier13-35-246502828.gif>
+<img id=tier05 src=red/tier05-89-1724018929.gif>
+<img id=tier06 src=red/tier06-18-2235910518.gif>
+<img id=tier07 src=red/tier07-7-2100017051.gif>
+<img id=tier06 src=red/tier06-59-2235910518.gif>
+<img id=tier04 src=red/tier04-15-2840328232.gif>
+<img id=tier08 src=red/tier08-91-566716961.gif>
+<img id=tier08 src=red/tier08-12-566716961.gif>
+<img id=tier06 src=red/tier06-42-2235910518.gif>
+<img id=tier08 src=red/tier08-37-566716961.gif>
+<img id=tier06 src=red/tier06-73-2235910518.gif>
+<img id=tier08 src=red/tier08-89-566716961.gif>
+<img id=tier05 src=red/tier05-34-1724018929.gif>
+<img id=tier06 src=red/tier06-24-2235910518.gif>
+<img id=tier14 src=red/tier14-85-2014010098.gif>
+<img id=tier07 src=red/tier07-86-2100017051.gif>
+<img id=tier11 src=red/tier11-22-2517413837.gif>
+<img id=tier12 src=red/tier12-36-226119184.gif>
+<img id=tier03 src=red/tier03-26-255827028.gif>
+<img id=tier04 src=red/tier04-34-2840328232.gif>
+<img id=tier09 src=red/tier09-18-69401632.gif>
+<img id=tier01 src=red/tier01-87-1854527402.gif>
+<img id=tier08 src=red/tier08-95-566716961.gif>
+<img id=tier06 src=red/tier06-76-2235910518.gif>
+<img id=tier08 src=red/tier08-55-566716961.gif>
+<img id=tier14 src=red/tier14-80-2014010098.gif>
+<img id=tier03 src=red/tier03-76-255827028.gif>
+<img id=tier04 src=red/tier04-41-2840328232.gif>
+<img id=tier13 src=red/tier13-7-246502828.gif>
+<img id=tier04 src=red/tier04-40-2840328232.gif>
+<img id=tier05 src=red/tier05-96-1724018929.gif>
+<img id=tier04 src=red/tier04-51-2840328232.gif>
+<img id=tier02 src=red/tier02-37-69318224.gif>
+<img id=tier05 src=red/tier05-39-1724018929.gif>
+<img id=tier08 src=red/tier08-39-566716961.gif>
+<img id=tier04 src=red/tier04-52-2840328232.gif>
+<img id=tier01 src=red/tier01-88-1854527402.gif>
+<img id=tier09 src=red/tier09-1-69401632.gif>
+<img id=tier08 src=red/tier08-100-566716961.gif>
+<img id=tier12 src=red/tier12-100-226119184.gif>
+<img id=tier05 src=red/tier05-97-1724018929.gif>
+<img id=tier09 src=red/tier09-31-69401632.gif>
+<img id=tier13 src=red/tier13-71-246502828.gif>
+<img id=tier08 src=red/tier08-10-566716961.gif>
+<img id=tier05 src=red/tier05-9-1724018929.gif>
+<img id=tier03 src=red/tier03-2-255827028.gif>
+<img id=tier07 src=red/tier07-2-2100017051.gif>
+<img id=tier05 src=red/tier05-98-1724018929.gif>
+<img id=tier02 src=red/tier02-100-69318224.gif>
+<img id=tier10 src=red/tier10-5-498911586.gif>
+<img id=tier06 src=red/tier06-97-2235910518.gif>
+<img id=tier05 src=red/tier05-87-1724018929.gif>
+<img id=tier05 src=red/tier05-71-1724018929.gif>
+<img id=tier15 src=red/tier15-53-1447114752.gif>
+<img id=tier08 src=red/tier08-35-566716961.gif>
+<img id=tier12 src=red/tier12-21-226119184.gif>
+<img id=tier11 src=red/tier11-68-2517413837.gif>
+<img id=tier05 src=red/tier05-83-1724018929.gif>
+<img id=tier11 src=red/tier11-93-2517413837.gif>
+<img id=tier08 src=red/tier08-76-566716961.gif>
+<img id=tier04 src=red/tier04-95-2840328232.gif>
+<img id=tier06 src=red/tier06-3-2235910518.gif>
+<img id=tier11 src=red/tier11-78-2517413837.gif>
+<img id=tier07 src=red/tier07-31-2100017051.gif>
+<img id=tier11 src=red/tier11-48-2517413837.gif>
+<img id=tier04 src=red/tier04-11-2840328232.gif>
+<img id=tier01 src=red/tier01-84-1854527402.gif>
+<img id=tier03 src=red/tier03-94-255827028.gif>
+<img id=tier07 src=red/tier07-94-2100017051.gif>
+<img id=tier01 src=red/tier01-26-1854527402.gif>
+<img id=tier15 src=red/tier15-15-1447114752.gif>
+<img id=tier04 src=red/tier04-78-2840328232.gif>
+<img id=tier08 src=red/tier08-31-566716961.gif>
+<img id=tier12 src=red/tier12-56-226119184.gif>
+<img id=tier04 src=red/tier04-22-2840328232.gif>
+<img id=tier07 src=red/tier07-96-2100017051.gif>
+<img id=tier06 src=red/tier06-67-2235910518.gif>
+<img id=tier10 src=red/tier10-36-498911586.gif>
+<img id=tier10 src=red/tier10-73-498911586.gif>
+<img id=tier12 src=red/tier12-1-226119184.gif>
+<img id=tier05 src=red/tier05-20-1724018929.gif>
+<img id=tier03 src=red/tier03-84-255827028.gif>
+<img id=tier04 src=red/tier04-62-2840328232.gif>
+<img id=tier04 src=red/tier04-56-2840328232.gif>
+<img id=tier08 src=red/tier08-34-566716961.gif>
+<img id=tier07 src=red/tier07-38-2100017051.gif>
+<img id=tier07 src=red/tier07-14-2100017051.gif>
+<img id=tier13 src=red/tier13-46-246502828.gif>
+<img id=tier12 src=red/tier12-49-226119184.gif>
+<img id=tier06 src=red/tier06-61-2235910518.gif>
+<img id=tier10 src=red/tier10-45-498911586.gif>
+<img id=tier08 src=red/tier08-52-566716961.gif>
+<img id=tier02 src=red/tier02-4-69318224.gif>
+<img id=tier09 src=red/tier09-41-69401632.gif>
+<img id=tier03 src=red/tier03-36-255827028.gif>
+<img id=tier08 src=red/tier08-70-566716961.gif>
+<img id=tier08 src=red/tier08-15-566716961.gif>
+<img id=tier05 src=red/tier05-77-1724018929.gif>
+<img id=tier13 src=red/tier13-29-246502828.gif>
+<img id=tier06 src=red/tier06-88-2235910518.gif>
+<img id=tier08 src=red/tier08-41-566716961.gif>
+<img id=tier08 src=red/tier08-28-566716961.gif>
+<img id=tier05 src=red/tier05-37-1724018929.gif>
+<img id=tier07 src=red/tier07-36-2100017051.gif>
+<img id=tier11 src=red/tier11-49-2517413837.gif>
+<img id=tier09 src=red/tier09-91-69401632.gif>
+<img id=tier05 src=red/tier05-63-1724018929.gif>
+<img id=tier07 src=red/tier07-18-2100017051.gif>
+<img id=tier06 src=red/tier06-82-2235910518.gif>
+<img id=tier04 src=red/tier04-81-2840328232.gif>
+<img id=tier10 src=red/tier10-63-498911586.gif>
+<img id=tier04 src=red/tier04-43-2840328232.gif>
+<img id=tier08 src=red/tier08-16-566716961.gif>
+<img id=tier08 src=red/tier08-45-566716961.gif>
+<img id=tier04 src=red/tier04-7-2840328232.gif>
+<img id=tier08 src=red/tier08-68-566716961.gif>
+<img id=tier15 src=red/tier15-5-1447114752.gif>
+<img id=tier11 src=red/tier11-4-2517413837.gif>
+<img id=tier09 src=red/tier09-3-69401632.gif>
+<img id=tier07 src=red/tier07-45-2100017051.gif>
+<img id=tier15 src=red/tier15-26-1447114752.gif>
+<img id=tier12 src=red/tier12-9-226119184.gif>
+<img id=tier12 src=red/tier12-20-226119184.gif>
+<img id=tier15 src=red/tier15-10-1447114752.gif>
+<img id=tier09 src=red/tier09-96-69401632.gif>
+<img id=tier08 src=red/tier08-83-566716961.gif>
+<img id=tier10 src=red/tier10-91-498911586.gif>
+<img id=tier07 src=red/tier07-58-2100017051.gif>
+<img id=tier08 src=red/tier08-9-566716961.gif>
+<img id=tier14 src=red/tier14-83-2014010098.gif>
+<img id=tier10 src=red/tier10-100-498911586.gif>
+<img id=tier14 src=red/tier14-93-2014010098.gif>
+<img id=tier14 src=red/tier14-81-2014010098.gif>
+<hr><div class=resource_link_div><a class='resource_link' href='https://www.investopedia.com/articles/technical/061801.asp'>What qualifies a person as a day trader?</a><br>Investopedia</div></hr>
+<h2>high frequenecy of Green - SORTED BY size</h2>
+<img id=tier03 src=green/tier03-82-255827028.gif>
+<img id=tier02 src=green/tier02-91-69318224.gif>
+<img id=tier02 src=green/tier02-28-69318224.gif>
+<img id=tier06 src=green/tier06-50-2235910518.gif>
+<img id=tier04 src=green/tier04-92-2840328232.gif>
+<img id=tier10 src=green/tier10-75-498911586.gif>
+<img id=tier02 src=green/tier02-25-69318224.gif>
+<img id=tier13 src=green/tier13-55-246502828.gif>
+<img id=tier10 src=green/tier10-85-498911586.gif>
+<img id=tier07 src=green/tier07-16-2100017051.gif>
+<img id=tier08 src=green/tier08-69-566716961.gif>
+<img id=tier15 src=green/tier15-94-1447114752.gif>
+<img id=tier05 src=green/tier05-11-1724018929.gif>
+<img id=tier06 src=green/tier06-58-2235910518.gif>
+<img id=tier14 src=green/tier14-21-2014010098.gif>
+<img id=tier13 src=green/tier13-85-246502828.gif>
+<img id=tier03 src=green/tier03-48-255827028.gif>
+<img id=tier14 src=green/tier14-71-2014010098.gif>
+<img id=tier10 src=green/tier10-88-498911586.gif>
+<img id=tier01 src=green/tier01-78-1854527402.gif>
+<img id=tier12 src=green/tier12-85-226119184.gif>
+<img id=tier05 src=green/tier05-76-1724018929.gif>
+<img id=tier14 src=green/tier14-15-2014010098.gif>
+<img id=tier04 src=green/tier04-69-2840328232.gif>
+<img id=tier11 src=green/tier11-62-2517413837.gif>
+<img id=tier04 src=green/tier04-71-2840328232.gif>
+<img id=tier03 src=green/tier03-77-255827028.gif>
+<img id=tier14 src=green/tier14-51-2014010098.gif>
+<img id=tier06 src=green/tier06-6-2235910518.gif>
+<img id=tier06 src=green/tier06-95-2235910518.gif>
+<img id=tier12 src=green/tier12-75-226119184.gif>
+<img id=tier08 src=green/tier08-90-566716961.gif>
+<img id=tier07 src=green/tier07-9-2100017051.gif>
+<img id=tier03 src=green/tier03-87-255827028.gif>
+<img id=tier12 src=green/tier12-7-226119184.gif>
+<img id=tier09 src=green/tier09-98-69401632.gif>
+<img id=tier07 src=green/tier07-97-2100017051.gif>
+<img id=tier07 src=green/tier07-50-2100017051.gif>
+<img id=tier06 src=green/tier06-19-2235910518.gif>
+<img id=tier06 src=green/tier06-87-2235910518.gif>
+<img id=tier02 src=green/tier02-44-69318224.gif>
+<img id=tier12 src=green/tier12-45-226119184.gif>
+<img id=tier11 src=green/tier11-50-2517413837.gif>
+<img id=tier08 src=green/tier08-33-566716961.gif>
+<img id=tier03 src=green/tier03-61-255827028.gif>
+<img id=tier03 src=green/tier03-25-255827028.gif>
+<img id=tier12 src=green/tier12-33-226119184.gif>
+<img id=tier06 src=green/tier06-56-2235910518.gif>
+<img id=tier12 src=green/tier12-89-226119184.gif>
+<img id=tier06 src=green/tier06-21-2235910518.gif>
+<img id=tier02 src=green/tier02-94-69318224.gif>
+<img id=tier02 src=green/tier02-67-69318224.gif>
+<img id=tier01 src=green/tier01-14-1854527402.gif>
+<img id=tier13 src=green/tier13-100-246502828.gif>
+<img id=tier08 src=green/tier08-73-566716961.gif>
+<img id=tier13 src=green/tier13-38-246502828.gif>
+<img id=tier09 src=green/tier09-30-69401632.gif>
+<img id=tier14 src=green/tier14-52-2014010098.gif>
+<img id=tier14 src=green/tier14-25-2014010098.gif>
+<img id=tier05 src=green/tier05-30-1724018929.gif>
+<img id=tier13 src=green/tier13-28-246502828.gif>
+<img id=tier14 src=green/tier14-19-2014010098.gif>
+<img id=tier07 src=green/tier07-48-2100017051.gif>
+<img id=tier10 src=green/tier10-28-498911586.gif>
+<img id=tier12 src=green/tier12-97-226119184.gif>
+<img id=tier06 src=green/tier06-81-2235910518.gif>
+<img id=tier05 src=green/tier05-91-1724018929.gif>
+<img id=tier04 src=green/tier04-68-2840328232.gif>
+<img id=tier02 src=green/tier02-32-69318224.gif>
+<img id=tier14 src=green/tier14-58-2014010098.gif>
+<img id=tier13 src=green/tier13-87-246502828.gif>
+<img id=tier10 src=green/tier10-8-498911586.gif>
+<img id=tier06 src=green/tier06-37-2235910518.gif>
+<img id=tier05 src=green/tier05-61-1724018929.gif>
+<img id=tier15 src=green/tier15-46-1447114752.gif>
+<img id=tier09 src=green/tier09-90-69401632.gif>
+<img id=tier08 src=green/tier08-48-566716961.gif>
+<img id=tier15 src=green/tier15-23-1447114752.gif>
+<img id=tier02 src=green/tier02-29-69318224.gif>
+<img id=tier01 src=green/tier01-82-1854527402.gif>
+<img id=tier15 src=green/tier15-83-1447114752.gif>
+<img id=tier13 src=green/tier13-90-246502828.gif>
+<img id=tier11 src=green/tier11-46-2517413837.gif>
+<img id=tier10 src=green/tier10-40-498911586.gif>
+<img id=tier04 src=green/tier04-99-2840328232.gif>
+<img id=tier04 src=green/tier04-47-2840328232.gif>
+<img id=tier02 src=green/tier02-89-69318224.gif>
+<img id=tier12 src=green/tier12-27-226119184.gif>
+<img id=tier10 src=green/tier10-34-498911586.gif>
+<img id=tier04 src=green/tier04-96-2840328232.gif>
+<img id=tier12 src=green/tier12-47-226119184.gif>
+<img id=tier11 src=green/tier11-47-2517413837.gif>
+<img id=tier07 src=green/tier07-100-2100017051.gif>
+<img id=tier05 src=green/tier05-18-1724018929.gif>
+<img id=tier10 src=green/tier10-11-498911586.gif>
+<img id=tier04 src=green/tier04-12-2840328232.gif>
+<img id=tier02 src=green/tier02-9-69318224.gif>
+<img id=tier07 src=green/tier07-23-2100017051.gif>
+<img id=tier06 src=green/tier06-94-2235910518.gif>
+<img id=tier03 src=green/tier03-68-255827028.gif>
+<img id=tier03 src=green/tier03-60-255827028.gif>
+<img id=tier02 src=green/tier02-68-69318224.gif>
+<img id=tier14 src=green/tier14-92-2014010098.gif>
+<img id=tier13 src=green/tier13-89-246502828.gif>
+<img id=tier11 src=green/tier11-12-2517413837.gif>
+<img id=tier12 src=green/tier12-94-226119184.gif>
+<img id=tier10 src=green/tier10-51-498911586.gif>
+<img id=tier03 src=green/tier03-19-255827028.gif>
+<img id=tier09 src=green/tier09-32-69401632.gif>
+<img id=tier05 src=green/tier05-78-1724018929.gif>
+<img id=tier03 src=green/tier03-74-255827028.gif>
+<img id=tier14 src=green/tier14-7-2014010098.gif>
+<img id=tier14 src=green/tier14-34-2014010098.gif>
+<img id=tier11 src=green/tier11-86-2517413837.gif>
+<img id=tier05 src=green/tier05-1-1724018929.gif>
+<img id=tier04 src=green/tier04-66-2840328232.gif>
+<img id=tier03 src=green/tier03-69-255827028.gif>
+<img id=tier02 src=green/tier02-59-69318224.gif>
+<img id=tier05 src=green/tier05-68-1724018929.gif>
+<img id=tier13 src=green/tier13-78-246502828.gif>
+<img id=tier09 src=green/tier09-80-69401632.gif>
+<img id=tier07 src=green/tier07-59-2100017051.gif>
+<img id=tier04 src=green/tier04-91-2840328232.gif>
+<img id=tier03 src=green/tier03-5-255827028.gif>
+<img id=tier03 src=green/tier03-21-255827028.gif>
+<img id=tier03 src=green/tier03-100-255827028.gif>
+<img id=tier12 src=green/tier12-91-226119184.gif>
+<img id=tier05 src=green/tier05-26-1724018929.gif>
+<img id=tier04 src=green/tier04-27-2840328232.gif>
+<img id=tier03 src=green/tier03-98-255827028.gif>
+<img id=tier03 src=green/tier03-42-255827028.gif>
+<img id=tier15 src=green/tier15-20-1447114752.gif>
+<img id=tier13 src=green/tier13-17-246502828.gif>
+<img id=tier09 src=green/tier09-33-69401632.gif>
+<img id=tier07 src=green/tier07-89-2100017051.gif>
+<img id=tier04 src=green/tier04-46-2840328232.gif>
+<img id=tier03 src=green/tier03-92-255827028.gif>
+<img id=tier01 src=green/tier01-11-1854527402.gif>
+<img id=tier15 src=green/tier15-64-1447114752.gif>
+<img id=tier11 src=green/tier11-56-2517413837.gif>
+<img id=tier10 src=green/tier10-70-498911586.gif>
+<img id=tier06 src=green/tier06-11-2235910518.gif>
+<img id=tier05 src=green/tier05-38-1724018929.gif>
+<img id=tier04 src=green/tier04-98-2840328232.gif>
+<img id=tier04 src=green/tier04-24-2840328232.gif>
+<img id=tier02 src=green/tier02-10-69318224.gif>
+<img id=tier05 src=green/tier05-15-1724018929.gif>
+<img id=tier02 src=green/tier02-24-69318224.gif>
+<img id=tier14 src=green/tier14-43-2014010098.gif>
+<img id=tier13 src=green/tier13-77-246502828.gif>
+<hr><div class=resource_link_div><a class='resource_link' href='https://www.investopedia.com/articles/technical/061801.asp'>What qualifies a person as a day trader?</a><br>Investopedia</div></hr>
+<br>
+<h2>24hr else - size</h2>
+<img id=tier14 src=tier14-49-2014010098.gif>
+<img id=tier05 src=tier05-13-1724018929.gif>
+<img id=tier03 src=tier03-70-255827028.gif>
+<img id=tier10 src=tier10-97-498911586.gif>
+<img id=tier05 src=tier05-79-1724018929.gif>
+<img id=tier01 src=tier01-90-1854527402.gif>
+<img id=tier01 src=tier01-48-1854527402.gif>
+<img id=tier13 src=tier13-8-246502828.gif>
+<img id=tier04 src=tier04-18-2840328232.gif>
+<img id=tier01 src=tier01-97-1854527402.gif>
+<img id=tier09 src=tier09-2-69401632.gif>
+<img id=tier07 src=tier07-25-2100017051.gif>
+<img id=tier08 src=tier08-32-566716961.gif>
+<img id=tier03 src=tier03-55-255827028.gif>
+<img id=tier08 src=tier08-98-566716961.gif>
+<img id=tier01 src=tier01-54-1854527402.gif>
+<img id=tier01 src=tier01-81-1854527402.gif>
+<img id=tier13 src=tier13-1-246502828.gif>
+<img id=tier01 src=tier01-30-1854527402.gif>
+<img id=tier14 src=tier14-57-2014010098.gif>
+<img id=tier03 src=tier03-85-255827028.gif>
+<img id=tier11 src=tier11-98-2517413837.gif>
+<img id=tier14 src=tier14-54-2014010098.gif>
+<img id=tier11 src=tier11-69-2517413837.gif>
+<img id=tier07 src=tier07-81-2100017051.gif>
+<img id=tier01 src=tier01-67-1854527402.gif>
+<img id=tier02 src=tier02-26-69318224.gif>
+<img id=tier06 src=tier06-98-2235910518.gif>
+<img id=tier13 src=tier13-70-246502828.gif>
+<img id=tier08 src=tier08-36-566716961.gif>
+<img id=tier07 src=tier07-54-2100017051.gif>
+<img id=tier04 src=tier04-39-2840328232.gif>
+<img id=tier03 src=tier03-78-255827028.gif>
+<img id=tier07 src=tier07-47-2100017051.gif>
+<img id=tier03 src=tier03-9-255827028.gif>
+<img id=tier06 src=tier06-65-2235910518.gif>
+<img id=tier01 src=tier01-85-1854527402.gif>
+<img id=tier08 src=tier08-27-566716961.gif>
+<img id=tier08 src=tier08-75-566716961.gif>
+<img id=tier15 src=tier15-45-1447114752.gif>
+<img id=tier06 src=tier06-84-2235910518.gif>
+<img id=tier06 src=tier06-64-2235910518.gif>
+<img id=tier02 src=tier02-80-69318224.gif>
+<img id=tier15 src=tier15-63-1447114752.gif>
+<img id=tier02 src=tier02-17-69318224.gif>
+<img id=tier10 src=tier10-10-498911586.gif>
+<img id=tier10 src=tier10-68-498911586.gif>
+<img id=tier07 src=tier07-61-2100017051.gif>
+<img id=tier04 src=tier04-80-2840328232.gif>
+<img id=tier12 src=tier12-50-226119184.gif>
+<img id=tier05 src=tier05-4-1724018929.gif>
+<img id=tier02 src=tier02-90-69318224.gif>
+<img id=tier08 src=tier08-80-566716961.gif>
+<img id=tier07 src=tier07-65-2100017051.gif>
+<img id=tier03 src=tier03-1-255827028.gif>
+<img id=tier08 src=tier08-20-566716961.gif>
+<img id=tier06 src=tier06-46-2235910518.gif>
+<img id=tier02 src=tier02-64-69318224.gif>
+<img id=tier06 src=tier06-43-2235910518.gif>
+<img id=tier08 src=tier08-53-566716961.gif>
+<img id=tier04 src=tier04-73-2840328232.gif>
+<img id=tier01 src=tier01-23-1854527402.gif>
+<img id=tier13 src=tier13-63-246502828.gif>
+<img id=tier01 src=tier01-47-1854527402.gif>
+<img id=tier08 src=tier08-13-566716961.gif>
+<img id=tier15 src=tier15-50-1447114752.gif>
+<img id=tier11 src=tier11-26-2517413837.gif>
+<img id=tier02 src=tier02-48-69318224.gif>
+<img id=tier07 src=tier07-95-2100017051.gif>
+<img id=tier08 src=tier08-82-566716961.gif>
+<img id=tier06 src=tier06-90-2235910518.gif>
+<img id=tier06 src=tier06-14-2235910518.gif>
+<img id=tier02 src=tier02-45-69318224.gif>
+<img id=tier02 src=tier02-1-69318224.gif>
+<img id=tier13 src=tier13-10-246502828.gif>
+<img id=tier04 src=tier04-85-2840328232.gif>
+<img id=tier04 src=tier04-33-2840328232.gif>
+<img id=tier02 src=tier02-66-69318224.gif>
+<img id=tier14 src=tier14-74-2014010098.gif>
+<img id=tier07 src=tier07-46-2100017051.gif>
+<img id=tier06 src=tier06-72-2235910518.gif>
+<img id=tier10 src=tier10-20-498911586.gif>
+<img id=tier09 src=tier09-29-69401632.gif>
+<img id=tier11 src=tier11-95-2517413837.gif>
+<img id=tier08 src=tier08-2-566716961.gif>
+<img id=tier05 src=tier05-85-1724018929.gif>
+<img id=tier03 src=tier03-62-255827028.gif>
+<img id=tier05 src=tier05-67-1724018929.gif>
+<img id=tier05 src=tier05-50-1724018929.gif>
+<img id=tier03 src=tier03-38-255827028.gif>
+<img id=tier02 src=tier02-11-69318224.gif>
+<img id=tier12 src=tier12-55-226119184.gif>
+<img id=tier08 src=tier08-93-566716961.gif>
+<img id=tier02 src=tier02-40-69318224.gif>
+<img id=tier06 src=tier06-83-2235910518.gif>
+<img id=tier15 src=tier15-40-1447114752.gif>
+<img id=tier06 src=tier06-16-2235910518.gif>
+<img id=tier05 src=tier05-59-1724018929.gif>
+<img id=tier02 src=tier02-7-69318224.gif>
+<img id=tier01 src=tier01-99-1854527402.gif>
+<img id=tier02 src=tier02-87-69318224.gif>
+<img id=tier05 src=tier05-45-1724018929.gif>
+<img id=tier02 src=tier02-3-69318224.gif>
+<img id=tier01 src=tier01-74-1854527402.gif>
+<img id=tier01 src=tier01-31-1854527402.gif>
+<img id=tier13 src=tier13-72-246502828.gif>
+<img id=tier11 src=tier11-59-2517413837.gif>
+<img id=tier07 src=tier07-34-2100017051.gif>
+<img id=tier05 src=tier05-58-1724018929.gif>
+<img id=tier02 src=tier02-23-69318224.gif>
+<img id=tier14 src=tier14-50-2014010098.gif>
+<img id=tier07 src=tier07-11-2100017051.gif>
+<img id=tier06 src=tier06-75-2235910518.gif>
+<img id=tier05 src=tier05-12-1724018929.gif>
+<img id=tier04 src=tier04-48-2840328232.gif>
+<img id=tier14 src=tier14-72-2014010098.gif>
+<img id=tier13 src=tier13-48-246502828.gif>
+<img id=tier08 src=tier08-77-566716961.gif>
+<img id=tier07 src=tier07-62-2100017051.gif>
+<img id=tier06 src=tier06-79-2235910518.gif>
+<img id=tier03 src=tier03-47-255827028.gif>
+<img id=tier02 src=tier02-46-69318224.gif>
+<img id=tier01 src=tier01-94-1854527402.gif>
+<img id=tier06 src=tier06-89-2235910518.gif>
+<img id=tier05 src=tier05-44-1724018929.gif>
+<img id=tier01 src=tier01-35-1854527402.gif>
+<img id=tier15 src=tier15-51-1447114752.gif>
+<img id=tier07 src=tier07-70-2100017051.gif>
+<img id=tier04 src=tier04-44-2840328232.gif>
+<img id=tier03 src=tier03-23-255827028.gif>
+<img id=tier07 src=tier07-35-2100017051.gif>
+<img id=tier01 src=tier01-34-1854527402.gif>
+<img id=tier15 src=tier15-77-1447114752.gif>
+<img id=tier10 src=tier10-25-498911586.gif>
+<img id=tier15 src=tier15-93-1447114752.gif>
+<img id=tier12 src=tier12-69-226119184.gif>
+<img id=tier03 src=tier03-71-255827028.gif>
+<img id=tier03 src=tier03-3-255827028.gif>
+<img id=tier02 src=tier02-93-69318224.gif>
+<img id=tier13 src=tier13-86-246502828.gif>
+<img id=tier06 src=tier06-93-2235910518.gif>
+<img id=tier05 src=tier05-47-1724018929.gif>
+<img id=tier13 src=tier13-91-246502828.gif>
+<img id=tier03 src=tier03-30-255827028.gif>
+<img id=tier02 src=tier02-69-69318224.gif>
+<img id=tier01 src=tier01-20-1854527402.gif>
+<img id=tier08 src=tier08-71-566716961.gif>
+<img id=tier06 src=tier06-36-2235910518.gif>
+<img id=tier02 src=tier02-41-69318224.gif>
+<img id=tier01 src=tier01-50-1854527402.gif>
+<hr><div class=resource_link_div><a class='resource_link' href='https://www.investopedia.com/articles/02/061202.asp'>What Investors Can Learn From Insider Trading</a><br>Investopedia</div></hr>
+<br>
+<h2>high frequenecy of red - SORTED BY tiers</h2>
+<img id=tier01 src=red/tier01-26-1854527402.gif>
+<img id=tier01 src=red/tier01-84-1854527402.gif>
+<img id=tier01 src=red/tier01-87-1854527402.gif>
+<img id=tier01 src=red/tier01-88-1854527402.gif>
+<img id=tier02 src=red/tier02-100-69318224.gif>
+<img id=tier02 src=red/tier02-37-69318224.gif>
+<img id=tier02 src=red/tier02-4-69318224.gif>
+<img id=tier03 src=red/tier03-2-255827028.gif>
+<img id=tier03 src=red/tier03-26-255827028.gif>
+<img id=tier03 src=red/tier03-36-255827028.gif>
+<img id=tier03 src=red/tier03-76-255827028.gif>
+<img id=tier03 src=red/tier03-84-255827028.gif>
+<img id=tier03 src=red/tier03-94-255827028.gif>
+<img id=tier04 src=red/tier04-11-2840328232.gif>
+<img id=tier04 src=red/tier04-15-2840328232.gif>
+<img id=tier04 src=red/tier04-22-2840328232.gif>
+<img id=tier04 src=red/tier04-34-2840328232.gif>
+<img id=tier04 src=red/tier04-40-2840328232.gif>
+<img id=tier04 src=red/tier04-41-2840328232.gif>
+<img id=tier04 src=red/tier04-43-2840328232.gif>
+<img id=tier04 src=red/tier04-51-2840328232.gif>
+<img id=tier04 src=red/tier04-52-2840328232.gif>
+<img id=tier04 src=red/tier04-56-2840328232.gif>
+<img id=tier04 src=red/tier04-62-2840328232.gif>
+<img id=tier04 src=red/tier04-7-2840328232.gif>
+<img id=tier04 src=red/tier04-78-2840328232.gif>
+<img id=tier04 src=red/tier04-81-2840328232.gif>
+<img id=tier04 src=red/tier04-95-2840328232.gif>
+<img id=tier05 src=red/tier05-20-1724018929.gif>
+<img id=tier05 src=red/tier05-34-1724018929.gif>
+<img id=tier05 src=red/tier05-37-1724018929.gif>
+<img id=tier05 src=red/tier05-39-1724018929.gif>
+<img id=tier05 src=red/tier05-63-1724018929.gif>
+<img id=tier05 src=red/tier05-71-1724018929.gif>
+<img id=tier05 src=red/tier05-72-1724018929.gif>
+<img id=tier05 src=red/tier05-77-1724018929.gif>
+<img id=tier05 src=red/tier05-83-1724018929.gif>
+<img id=tier05 src=red/tier05-87-1724018929.gif>
+<img id=tier05 src=red/tier05-89-1724018929.gif>
+<img id=tier05 src=red/tier05-9-1724018929.gif>
+<img id=tier05 src=red/tier05-96-1724018929.gif>
+<img id=tier05 src=red/tier05-97-1724018929.gif>
+<img id=tier05 src=red/tier05-98-1724018929.gif>
+<img id=tier06 src=red/tier06-18-2235910518.gif>
+<img id=tier06 src=red/tier06-24-2235910518.gif>
+<img id=tier06 src=red/tier06-3-2235910518.gif>
+<img id=tier06 src=red/tier06-42-2235910518.gif>
+<img id=tier06 src=red/tier06-59-2235910518.gif>
+<img id=tier06 src=red/tier06-61-2235910518.gif>
+<img id=tier06 src=red/tier06-67-2235910518.gif>
+<img id=tier06 src=red/tier06-73-2235910518.gif>
+<img id=tier06 src=red/tier06-76-2235910518.gif>
+<img id=tier06 src=red/tier06-82-2235910518.gif>
+<img id=tier06 src=red/tier06-88-2235910518.gif>
+<img id=tier06 src=red/tier06-97-2235910518.gif>
+<img id=tier07 src=red/tier07-14-2100017051.gif>
+<img id=tier07 src=red/tier07-18-2100017051.gif>
+<img id=tier07 src=red/tier07-2-2100017051.gif>
+<img id=tier07 src=red/tier07-31-2100017051.gif>
+<img id=tier07 src=red/tier07-36-2100017051.gif>
+<img id=tier07 src=red/tier07-37-2100017051.gif>
+<img id=tier07 src=red/tier07-38-2100017051.gif>
+<img id=tier07 src=red/tier07-45-2100017051.gif>
+<img id=tier07 src=red/tier07-58-2100017051.gif>
+<img id=tier07 src=red/tier07-7-2100017051.gif>
+<img id=tier07 src=red/tier07-86-2100017051.gif>
+<img id=tier07 src=red/tier07-94-2100017051.gif>
+<img id=tier07 src=red/tier07-96-2100017051.gif>
+<img id=tier08 src=red/tier08-100-566716961.gif>
+<img id=tier08 src=red/tier08-10-566716961.gif>
+<img id=tier08 src=red/tier08-12-566716961.gif>
+<img id=tier08 src=red/tier08-15-566716961.gif>
+<img id=tier08 src=red/tier08-16-566716961.gif>
+<img id=tier08 src=red/tier08-28-566716961.gif>
+<img id=tier08 src=red/tier08-31-566716961.gif>
+<img id=tier08 src=red/tier08-34-566716961.gif>
+<img id=tier08 src=red/tier08-35-566716961.gif>
+<img id=tier08 src=red/tier08-37-566716961.gif>
+<img id=tier08 src=red/tier08-39-566716961.gif>
+<img id=tier08 src=red/tier08-41-566716961.gif>
+<img id=tier08 src=red/tier08-45-566716961.gif>
+<img id=tier08 src=red/tier08-52-566716961.gif>
+<img id=tier08 src=red/tier08-55-566716961.gif>
+<img id=tier08 src=red/tier08-68-566716961.gif>
+<img id=tier08 src=red/tier08-70-566716961.gif>
+<img id=tier08 src=red/tier08-76-566716961.gif>
+<img id=tier08 src=red/tier08-83-566716961.gif>
+<img id=tier08 src=red/tier08-89-566716961.gif>
+<img id=tier08 src=red/tier08-91-566716961.gif>
+<img id=tier08 src=red/tier08-95-566716961.gif>
+<img id=tier08 src=red/tier08-9-566716961.gif>
+<img id=tier09 src=red/tier09-16-69401632.gif>
+<img id=tier09 src=red/tier09-1-69401632.gif>
+<img id=tier09 src=red/tier09-18-69401632.gif>
+<img id=tier09 src=red/tier09-31-69401632.gif>
+<img id=tier09 src=red/tier09-3-69401632.gif>
+<img id=tier09 src=red/tier09-41-69401632.gif>
+<img id=tier09 src=red/tier09-91-69401632.gif>
+<img id=tier09 src=red/tier09-96-69401632.gif>
+<img id=tier10 src=red/tier10-100-498911586.gif>
+<img id=tier10 src=red/tier10-36-498911586.gif>
+<img id=tier10 src=red/tier10-45-498911586.gif>
+<img id=tier10 src=red/tier10-5-498911586.gif>
+<img id=tier10 src=red/tier10-63-498911586.gif>
+<img id=tier10 src=red/tier10-73-498911586.gif>
+<img id=tier10 src=red/tier10-91-498911586.gif>
+<img id=tier11 src=red/tier11-22-2517413837.gif>
+<img id=tier11 src=red/tier11-4-2517413837.gif>
+<img id=tier11 src=red/tier11-48-2517413837.gif>
+<img id=tier11 src=red/tier11-49-2517413837.gif>
+<img id=tier11 src=red/tier11-68-2517413837.gif>
+<img id=tier11 src=red/tier11-78-2517413837.gif>
+<img id=tier11 src=red/tier11-93-2517413837.gif>
+<img id=tier12 src=red/tier12-100-226119184.gif>
+<img id=tier12 src=red/tier12-1-226119184.gif>
+<img id=tier12 src=red/tier12-20-226119184.gif>
+<img id=tier12 src=red/tier12-21-226119184.gif>
+<img id=tier12 src=red/tier12-36-226119184.gif>
+<img id=tier12 src=red/tier12-49-226119184.gif>
+<img id=tier12 src=red/tier12-56-226119184.gif>
+<img id=tier12 src=red/tier12-66-226119184.gif>
+<img id=tier12 src=red/tier12-9-226119184.gif>
+<img id=tier12 src=red/tier12-93-226119184.gif>
+<img id=tier13 src=red/tier13-29-246502828.gif>
+<img id=tier13 src=red/tier13-35-246502828.gif>
+<img id=tier13 src=red/tier13-46-246502828.gif>
+<img id=tier13 src=red/tier13-71-246502828.gif>
+<img id=tier13 src=red/tier13-7-246502828.gif>
+<img id=tier14 src=red/tier14-10-2014010098.gif>
+<img id=tier14 src=red/tier14-20-2014010098.gif>
+<img id=tier14 src=red/tier14-80-2014010098.gif>
+<img id=tier14 src=red/tier14-81-2014010098.gif>
+<img id=tier14 src=red/tier14-83-2014010098.gif>
+<img id=tier14 src=red/tier14-85-2014010098.gif>
+<img id=tier14 src=red/tier14-93-2014010098.gif>
+<img id=tier15 src=red/tier15-10-1447114752.gif>
+<img id=tier15 src=red/tier15-15-1447114752.gif>
+<img id=tier15 src=red/tier15-26-1447114752.gif>
+<img id=tier15 src=red/tier15-5-1447114752.gif>
+<img id=tier15 src=red/tier15-53-1447114752.gif>
+<hr><div class=resource_link_div><a class='resource_link' href='https://www.investopedia.com/articles/technical/061801.asp'>What Investors Can Learn From Insider Trading</a><br>Investopedia</div></hr>
+<br>
+<h2>high frequenecy of Green - SORTED BY tiers</h2>
+<img id=tier01 src=green/tier01-100-1854527402.gif>
+<img id=tier01 src=green/tier01-11-1854527402.gif>
+<img id=tier01 src=green/tier01-1-1854527402.gif>
+<img id=tier01 src=green/tier01-12-1854527402.gif>
+<img id=tier01 src=green/tier01-14-1854527402.gif>
+<img id=tier01 src=green/tier01-15-1854527402.gif>
+<img id=tier01 src=green/tier01-19-1854527402.gif>
+<img id=tier01 src=green/tier01-2-1854527402.gif>
+<img id=tier01 src=green/tier01-22-1854527402.gif>
+<img id=tier01 src=green/tier01-27-1854527402.gif>
+<img id=tier01 src=green/tier01-28-1854527402.gif>
+<img id=tier01 src=green/tier01-32-1854527402.gif>
+<img id=tier01 src=green/tier01-33-1854527402.gif>
+<img id=tier01 src=green/tier01-36-1854527402.gif>
+<img id=tier01 src=green/tier01-39-1854527402.gif>
+<img id=tier01 src=green/tier01-40-1854527402.gif>
+<img id=tier01 src=green/tier01-41-1854527402.gif>
+<img id=tier01 src=green/tier01-43-1854527402.gif>
+<img id=tier01 src=green/tier01-44-1854527402.gif>
+<img id=tier01 src=green/tier01-45-1854527402.gif>
+<img id=tier01 src=green/tier01-46-1854527402.gif>
+<img id=tier01 src=green/tier01-49-1854527402.gif>
+<img id=tier01 src=green/tier01-5-1854527402.gif>
+<img id=tier01 src=green/tier01-52-1854527402.gif>
+<img id=tier01 src=green/tier01-59-1854527402.gif>
+<img id=tier01 src=green/tier01-61-1854527402.gif>
+<img id=tier01 src=green/tier01-6-1854527402.gif>
+<img id=tier01 src=green/tier01-66-1854527402.gif>
+<img id=tier01 src=green/tier01-69-1854527402.gif>
+<img id=tier01 src=green/tier01-70-1854527402.gif>
+<img id=tier01 src=green/tier01-75-1854527402.gif>
+<img id=tier01 src=green/tier01-76-1854527402.gif>
+<img id=tier01 src=green/tier01-78-1854527402.gif>
+<img id=tier01 src=green/tier01-79-1854527402.gif>
+<img id=tier01 src=green/tier01-82-1854527402.gif>
+<img id=tier01 src=green/tier01-83-1854527402.gif>
+<img id=tier01 src=green/tier01-89-1854527402.gif>
+<img id=tier01 src=green/tier01-92-1854527402.gif>
+<img id=tier01 src=green/tier01-93-1854527402.gif>
+<img id=tier01 src=green/tier01-95-1854527402.gif>
+<img id=tier02 src=green/tier02-10-69318224.gif>
+<img id=tier02 src=green/tier02-13-69318224.gif>
+<img id=tier02 src=green/tier02-16-69318224.gif>
+<img id=tier02 src=green/tier02-18-69318224.gif>
+<img id=tier02 src=green/tier02-21-69318224.gif>
+<img id=tier02 src=green/tier02-22-69318224.gif>
+<img id=tier02 src=green/tier02-24-69318224.gif>
+<img id=tier02 src=green/tier02-25-69318224.gif>
+<img id=tier02 src=green/tier02-2-69318224.gif>
+<img id=tier02 src=green/tier02-27-69318224.gif>
+<img id=tier02 src=green/tier02-28-69318224.gif>
+<img id=tier02 src=green/tier02-29-69318224.gif>
+<img id=tier02 src=green/tier02-30-69318224.gif>
+<img id=tier02 src=green/tier02-32-69318224.gif>
+<img id=tier02 src=green/tier02-33-69318224.gif>
+<img id=tier02 src=green/tier02-38-69318224.gif>
+<img id=tier02 src=green/tier02-39-69318224.gif>
+<img id=tier02 src=green/tier02-42-69318224.gif>
+<img id=tier02 src=green/tier02-43-69318224.gif>
+<img id=tier02 src=green/tier02-44-69318224.gif>
+<img id=tier02 src=green/tier02-47-69318224.gif>
+<img id=tier02 src=green/tier02-49-69318224.gif>
+<img id=tier02 src=green/tier02-52-69318224.gif>
+<img id=tier02 src=green/tier02-53-69318224.gif>
+<img id=tier02 src=green/tier02-55-69318224.gif>
+<img id=tier02 src=green/tier02-56-69318224.gif>
+<img id=tier02 src=green/tier02-58-69318224.gif>
+<img id=tier02 src=green/tier02-59-69318224.gif>
+<img id=tier02 src=green/tier02-60-69318224.gif>
+<img id=tier02 src=green/tier02-61-69318224.gif>
+<img id=tier02 src=green/tier02-63-69318224.gif>
+<img id=tier02 src=green/tier02-67-69318224.gif>
+<img id=tier02 src=green/tier02-68-69318224.gif>
+<img id=tier02 src=green/tier02-72-69318224.gif>
+<img id=tier02 src=green/tier02-74-69318224.gif>
+<img id=tier02 src=green/tier02-76-69318224.gif>
+<img id=tier02 src=green/tier02-77-69318224.gif>
+<img id=tier02 src=green/tier02-78-69318224.gif>
+<img id=tier02 src=green/tier02-81-69318224.gif>
+<img id=tier02 src=green/tier02-82-69318224.gif>
+<img id=tier02 src=green/tier02-8-69318224.gif>
+<img id=tier02 src=green/tier02-89-69318224.gif>
+<img id=tier02 src=green/tier02-91-69318224.gif>
+<img id=tier02 src=green/tier02-94-69318224.gif>
+<img id=tier02 src=green/tier02-95-69318224.gif>
+<img id=tier02 src=green/tier02-96-69318224.gif>
+<img id=tier02 src=green/tier02-9-69318224.gif>
+<img id=tier02 src=green/tier02-97-69318224.gif>
+<img id=tier02 src=green/tier02-98-69318224.gif>
+<img id=tier02 src=green/tier02-99-69318224.gif>
+<img id=tier03 src=green/tier03-100-255827028.gif>
+<img id=tier03 src=green/tier03-12-255827028.gif>
+<img id=tier03 src=green/tier03-13-255827028.gif>
+<img id=tier03 src=green/tier03-14-255827028.gif>
+<img id=tier03 src=green/tier03-15-255827028.gif>
+<img id=tier03 src=green/tier03-19-255827028.gif>
+<img id=tier03 src=green/tier03-20-255827028.gif>
+<img id=tier03 src=green/tier03-21-255827028.gif>
+<img id=tier03 src=green/tier03-25-255827028.gif>
+<img id=tier03 src=green/tier03-37-255827028.gif>
+<img id=tier03 src=green/tier03-39-255827028.gif>
+<img id=tier03 src=green/tier03-40-255827028.gif>
+<img id=tier03 src=green/tier03-42-255827028.gif>
+<img id=tier03 src=green/tier03-43-255827028.gif>
+<img id=tier03 src=green/tier03-46-255827028.gif>
+<img id=tier03 src=green/tier03-48-255827028.gif>
+<img id=tier03 src=green/tier03-49-255827028.gif>
+<img id=tier03 src=green/tier03-51-255827028.gif>
+<img id=tier03 src=green/tier03-52-255827028.gif>
+<img id=tier03 src=green/tier03-5-255827028.gif>
+<img id=tier03 src=green/tier03-57-255827028.gif>
+<img id=tier03 src=green/tier03-60-255827028.gif>
+<img id=tier03 src=green/tier03-61-255827028.gif>
+<img id=tier03 src=green/tier03-6-255827028.gif>
+<img id=tier03 src=green/tier03-63-255827028.gif>
+<img id=tier03 src=green/tier03-64-255827028.gif>
+<img id=tier03 src=green/tier03-65-255827028.gif>
+<img id=tier03 src=green/tier03-66-255827028.gif>
+<img id=tier03 src=green/tier03-67-255827028.gif>
+<img id=tier03 src=green/tier03-68-255827028.gif>
+<img id=tier03 src=green/tier03-69-255827028.gif>
+<img id=tier03 src=green/tier03-72-255827028.gif>
+<img id=tier03 src=green/tier03-74-255827028.gif>
+<img id=tier03 src=green/tier03-77-255827028.gif>
+<img id=tier03 src=green/tier03-79-255827028.gif>
+<img id=tier03 src=green/tier03-80-255827028.gif>
+<img id=tier03 src=green/tier03-82-255827028.gif>
+<img id=tier03 src=green/tier03-8-255827028.gif>
+<img id=tier03 src=green/tier03-83-255827028.gif>
+<img id=tier03 src=green/tier03-87-255827028.gif>
+<img id=tier03 src=green/tier03-89-255827028.gif>
+<img id=tier03 src=green/tier03-90-255827028.gif>
+<img id=tier03 src=green/tier03-91-255827028.gif>
+<img id=tier03 src=green/tier03-92-255827028.gif>
+<img id=tier03 src=green/tier03-93-255827028.gif>
+<img id=tier03 src=green/tier03-96-255827028.gif>
+<img id=tier03 src=green/tier03-97-255827028.gif>
+<img id=tier03 src=green/tier03-98-255827028.gif>
+<img id=tier04 src=green/tier04-12-2840328232.gif>
+<img id=tier04 src=green/tier04-13-2840328232.gif>
+<img id=tier04 src=green/tier04-14-2840328232.gif>
+<img id=tier04 src=green/tier04-17-2840328232.gif>
+<img id=tier04 src=green/tier04-19-2840328232.gif>
+<img id=tier04 src=green/tier04-2-2840328232.gif>
+<img id=tier04 src=green/tier04-24-2840328232.gif>
+<img id=tier04 src=green/tier04-27-2840328232.gif>
+<img id=tier04 src=green/tier04-28-2840328232.gif>
+<img id=tier04 src=green/tier04-30-2840328232.gif>
+<img id=tier04 src=green/tier04-31-2840328232.gif>
+<img id=tier04 src=green/tier04-32-2840328232.gif>
+<img id=tier04 src=green/tier04-36-2840328232.gif>
+<img id=tier04 src=green/tier04-42-2840328232.gif>
+<img id=tier04 src=green/tier04-4-2840328232.gif>
+<img id=tier04 src=green/tier04-46-2840328232.gif>
+<img id=tier04 src=green/tier04-47-2840328232.gif>
+<img id=tier04 src=green/tier04-53-2840328232.gif>
+<img id=tier04 src=green/tier04-55-2840328232.gif>
+<img id=tier04 src=green/tier04-60-2840328232.gif>
+<img id=tier04 src=green/tier04-6-2840328232.gif>
+<img id=tier04 src=green/tier04-64-2840328232.gif>
+<img id=tier04 src=green/tier04-66-2840328232.gif>
+<img id=tier04 src=green/tier04-68-2840328232.gif>
+<img id=tier04 src=green/tier04-69-2840328232.gif>
+<img id=tier04 src=green/tier04-70-2840328232.gif>
+<img id=tier04 src=green/tier04-71-2840328232.gif>
+<img id=tier04 src=green/tier04-75-2840328232.gif>
+<img id=tier04 src=green/tier04-76-2840328232.gif>
+<img id=tier04 src=green/tier04-79-2840328232.gif>
+<img id=tier04 src=green/tier04-84-2840328232.gif>
+<img id=tier04 src=green/tier04-88-2840328232.gif>
+<img id=tier04 src=green/tier04-90-2840328232.gif>
+<img id=tier04 src=green/tier04-91-2840328232.gif>
+<img id=tier04 src=green/tier04-92-2840328232.gif>
+<img id=tier04 src=green/tier04-9-2840328232.gif>
+<img id=tier04 src=green/tier04-93-2840328232.gif>
+<img id=tier04 src=green/tier04-94-2840328232.gif>
+<img id=tier04 src=green/tier04-96-2840328232.gif>
+<img id=tier04 src=green/tier04-98-2840328232.gif>
+<img id=tier04 src=green/tier04-99-2840328232.gif>
+<img id=tier05 src=green/tier05-11-1724018929.gif>
+<img id=tier05 src=green/tier05-1-1724018929.gif>
+<img id=tier05 src=green/tier05-15-1724018929.gif>
+<img id=tier05 src=green/tier05-17-1724018929.gif>
+<img id=tier05 src=green/tier05-18-1724018929.gif>
+<img id=tier05 src=green/tier05-21-1724018929.gif>
+<img id=tier05 src=green/tier05-2-1724018929.gif>
+<img id=tier05 src=green/tier05-23-1724018929.gif>
+<img id=tier05 src=green/tier05-25-1724018929.gif>
+<img id=tier05 src=green/tier05-26-1724018929.gif>
+<img id=tier05 src=green/tier05-27-1724018929.gif>
+<img id=tier05 src=green/tier05-29-1724018929.gif>
+<img id=tier05 src=green/tier05-30-1724018929.gif>
+<img id=tier05 src=green/tier05-31-1724018929.gif>
+<img id=tier05 src=green/tier05-33-1724018929.gif>
+<img id=tier05 src=green/tier05-35-1724018929.gif>
+<img id=tier05 src=green/tier05-38-1724018929.gif>
+<img id=tier05 src=green/tier05-40-1724018929.gif>
+<img id=tier05 src=green/tier05-41-1724018929.gif>
+<img id=tier05 src=green/tier05-42-1724018929.gif>
+<img id=tier05 src=green/tier05-43-1724018929.gif>
+<img id=tier05 src=green/tier05-48-1724018929.gif>
+<img id=tier05 src=green/tier05-51-1724018929.gif>
+<img id=tier05 src=green/tier05-5-1724018929.gif>
+<img id=tier05 src=green/tier05-53-1724018929.gif>
+<img id=tier05 src=green/tier05-55-1724018929.gif>
+<img id=tier05 src=green/tier05-56-1724018929.gif>
+<img id=tier05 src=green/tier05-57-1724018929.gif>
+<img id=tier05 src=green/tier05-61-1724018929.gif>
+<img id=tier05 src=green/tier05-6-1724018929.gif>
+<img id=tier05 src=green/tier05-66-1724018929.gif>
+<img id=tier05 src=green/tier05-68-1724018929.gif>
+<img id=tier05 src=green/tier05-7-1724018929.gif>
+<img id=tier05 src=green/tier05-73-1724018929.gif>
+<img id=tier05 src=green/tier05-74-1724018929.gif>
+<img id=tier05 src=green/tier05-76-1724018929.gif>
+<img id=tier05 src=green/tier05-78-1724018929.gif>
+<img id=tier05 src=green/tier05-81-1724018929.gif>
+<img id=tier05 src=green/tier05-84-1724018929.gif>
+<img id=tier05 src=green/tier05-86-1724018929.gif>
+<img id=tier05 src=green/tier05-91-1724018929.gif>
+<img id=tier06 src=green/tier06-100-2235910518.gif>
+<img id=tier06 src=green/tier06-10-2235910518.gif>
+<img id=tier06 src=green/tier06-11-2235910518.gif>
+<img id=tier06 src=green/tier06-12-2235910518.gif>
+<img id=tier06 src=green/tier06-13-2235910518.gif>
+<img id=tier06 src=green/tier06-15-2235910518.gif>
+<img id=tier06 src=green/tier06-19-2235910518.gif>
+<img id=tier06 src=green/tier06-21-2235910518.gif>
+<img id=tier06 src=green/tier06-2-2235910518.gif>
+<img id=tier06 src=green/tier06-23-2235910518.gif>
+<img id=tier06 src=green/tier06-25-2235910518.gif>
+<img id=tier06 src=green/tier06-26-2235910518.gif>
+<img id=tier06 src=green/tier06-31-2235910518.gif>
+<img id=tier06 src=green/tier06-33-2235910518.gif>
+<img id=tier06 src=green/tier06-34-2235910518.gif>
+<img id=tier06 src=green/tier06-37-2235910518.gif>
+<img id=tier06 src=green/tier06-38-2235910518.gif>
+<img id=tier06 src=green/tier06-40-2235910518.gif>
+<img id=tier06 src=green/tier06-41-2235910518.gif>
+<img id=tier06 src=green/tier06-4-2235910518.gif>
+<img id=tier06 src=green/tier06-48-2235910518.gif>
+<img id=tier06 src=green/tier06-50-2235910518.gif>
+<img id=tier06 src=green/tier06-51-2235910518.gif>
+<img id=tier06 src=green/tier06-52-2235910518.gif>
+<img id=tier06 src=green/tier06-53-2235910518.gif>
+<img id=tier06 src=green/tier06-54-2235910518.gif>
+<img id=tier06 src=green/tier06-55-2235910518.gif>
+<img id=tier06 src=green/tier06-56-2235910518.gif>
+<img id=tier06 src=green/tier06-58-2235910518.gif>
+<img id=tier06 src=green/tier06-60-2235910518.gif>
+<img id=tier06 src=green/tier06-6-2235910518.gif>
+<img id=tier06 src=green/tier06-68-2235910518.gif>
+<img id=tier06 src=green/tier06-69-2235910518.gif>
+<img id=tier06 src=green/tier06-70-2235910518.gif>
+<img id=tier06 src=green/tier06-71-2235910518.gif>
+<img id=tier06 src=green/tier06-77-2235910518.gif>
+<img id=tier06 src=green/tier06-78-2235910518.gif>
+<img id=tier06 src=green/tier06-81-2235910518.gif>
+<img id=tier06 src=green/tier06-8-2235910518.gif>
+<img id=tier06 src=green/tier06-85-2235910518.gif>
+<img id=tier06 src=green/tier06-87-2235910518.gif>
+<img id=tier06 src=green/tier06-92-2235910518.gif>
+<img id=tier06 src=green/tier06-9-2235910518.gif>
+<img id=tier06 src=green/tier06-94-2235910518.gif>
+<img id=tier06 src=green/tier06-95-2235910518.gif>
+<img id=tier06 src=green/tier06-96-2235910518.gif>
+<img id=tier06 src=green/tier06-99-2235910518.gif>
+<img id=tier07 src=green/tier07-100-2100017051.gif>
+<img id=tier07 src=green/tier07-10-2100017051.gif>
+<img id=tier07 src=green/tier07-12-2100017051.gif>
+<img id=tier07 src=green/tier07-15-2100017051.gif>
+<img id=tier07 src=green/tier07-16-2100017051.gif>
+<img id=tier07 src=green/tier07-17-2100017051.gif>
+<img id=tier07 src=green/tier07-19-2100017051.gif>
+<img id=tier07 src=green/tier07-21-2100017051.gif>
+<img id=tier07 src=green/tier07-23-2100017051.gif>
+<img id=tier07 src=green/tier07-26-2100017051.gif>
+<img id=tier07 src=green/tier07-28-2100017051.gif>
+<img id=tier07 src=green/tier07-30-2100017051.gif>
+<img id=tier07 src=green/tier07-3-2100017051.gif>
+<img id=tier07 src=green/tier07-32-2100017051.gif>
+<img id=tier07 src=green/tier07-33-2100017051.gif>
+<img id=tier07 src=green/tier07-4-2100017051.gif>
+<img id=tier07 src=green/tier07-42-2100017051.gif>
+<img id=tier07 src=green/tier07-44-2100017051.gif>
+<img id=tier07 src=green/tier07-48-2100017051.gif>
+<img id=tier07 src=green/tier07-49-2100017051.gif>
+<img id=tier07 src=green/tier07-50-2100017051.gif>
+<img id=tier07 src=green/tier07-53-2100017051.gif>
+<img id=tier07 src=green/tier07-56-2100017051.gif>
+<img id=tier07 src=green/tier07-59-2100017051.gif>
+<img id=tier07 src=green/tier07-66-2100017051.gif>
+<img id=tier07 src=green/tier07-67-2100017051.gif>
+<img id=tier07 src=green/tier07-68-2100017051.gif>
+<img id=tier07 src=green/tier07-69-2100017051.gif>
+<img id=tier07 src=green/tier07-71-2100017051.gif>
+<img id=tier07 src=green/tier07-72-2100017051.gif>
+<img id=tier07 src=green/tier07-76-2100017051.gif>
+<img id=tier07 src=green/tier07-77-2100017051.gif>
+<img id=tier07 src=green/tier07-80-2100017051.gif>
+<img id=tier07 src=green/tier07-84-2100017051.gif>
+<img id=tier07 src=green/tier07-85-2100017051.gif>
+<img id=tier07 src=green/tier07-89-2100017051.gif>
+<img id=tier07 src=green/tier07-9-2100017051.gif>
+<img id=tier07 src=green/tier07-93-2100017051.gif>
+<img id=tier07 src=green/tier07-97-2100017051.gif>
+<img id=tier07 src=green/tier07-99-2100017051.gif>
+<img id=tier08 src=green/tier08-11-566716961.gif>
+<img id=tier08 src=green/tier08-1-566716961.gif>
+<img id=tier08 src=green/tier08-18-566716961.gif>
+<img id=tier08 src=green/tier08-19-566716961.gif>
+<img id=tier08 src=green/tier08-22-566716961.gif>
+<img id=tier08 src=green/tier08-24-566716961.gif>
+<img id=tier08 src=green/tier08-29-566716961.gif>
+<img id=tier08 src=green/tier08-30-566716961.gif>
+<img id=tier08 src=green/tier08-33-566716961.gif>
+<img id=tier08 src=green/tier08-42-566716961.gif>
+<img id=tier08 src=green/tier08-46-566716961.gif>
+<img id=tier08 src=green/tier08-47-566716961.gif>
+<img id=tier08 src=green/tier08-48-566716961.gif>
+<img id=tier08 src=green/tier08-54-566716961.gif>
+<img id=tier08 src=green/tier08-57-566716961.gif>
+<img id=tier08 src=green/tier08-58-566716961.gif>
+<img id=tier08 src=green/tier08-60-566716961.gif>
+<img id=tier08 src=green/tier08-61-566716961.gif>
+<img id=tier08 src=green/tier08-64-566716961.gif>
+<img id=tier08 src=green/tier08-65-566716961.gif>
+<img id=tier08 src=green/tier08-66-566716961.gif>
+<img id=tier08 src=green/tier08-67-566716961.gif>
+<img id=tier08 src=green/tier08-69-566716961.gif>
+<img id=tier08 src=green/tier08-73-566716961.gif>
+<img id=tier08 src=green/tier08-74-566716961.gif>
+<img id=tier08 src=green/tier08-78-566716961.gif>
+<img id=tier08 src=green/tier08-81-566716961.gif>
+<img id=tier08 src=green/tier08-84-566716961.gif>
+<img id=tier08 src=green/tier08-86-566716961.gif>
+<img id=tier08 src=green/tier08-88-566716961.gif>
+<img id=tier08 src=green/tier08-90-566716961.gif>
+<img id=tier08 src=green/tier08-92-566716961.gif>
+<img id=tier08 src=green/tier08-94-566716961.gif>
+<img id=tier08 src=green/tier08-97-566716961.gif>
+<img id=tier08 src=green/tier08-99-566716961.gif>
+<img id=tier09 src=green/tier09-14-69401632.gif>
+<img id=tier09 src=green/tier09-17-69401632.gif>
+<img id=tier09 src=green/tier09-23-69401632.gif>
+<img id=tier09 src=green/tier09-24-69401632.gif>
+<img id=tier09 src=green/tier09-30-69401632.gif>
+<img id=tier09 src=green/tier09-32-69401632.gif>
+<img id=tier09 src=green/tier09-33-69401632.gif>
+<img id=tier09 src=green/tier09-37-69401632.gif>
+<img id=tier09 src=green/tier09-55-69401632.gif>
+<img id=tier09 src=green/tier09-61-69401632.gif>
+<img id=tier09 src=green/tier09-65-69401632.gif>
+<img id=tier09 src=green/tier09-70-69401632.gif>
+<img id=tier09 src=green/tier09-71-69401632.gif>
+<img id=tier09 src=green/tier09-73-69401632.gif>
+<img id=tier09 src=green/tier09-75-69401632.gif>
+<img id=tier09 src=green/tier09-79-69401632.gif>
+<img id=tier09 src=green/tier09-80-69401632.gif>
+<img id=tier09 src=green/tier09-81-69401632.gif>
+<img id=tier09 src=green/tier09-84-69401632.gif>
+<img id=tier09 src=green/tier09-89-69401632.gif>
+<img id=tier09 src=green/tier09-90-69401632.gif>
+<img id=tier09 src=green/tier09-94-69401632.gif>
+<img id=tier09 src=green/tier09-9-69401632.gif>
+<img id=tier09 src=green/tier09-98-69401632.gif>
+<img id=tier10 src=green/tier10-11-498911586.gif>
+<img id=tier10 src=green/tier10-23-498911586.gif>
+<img id=tier10 src=green/tier10-28-498911586.gif>
+<img id=tier10 src=green/tier10-29-498911586.gif>
+<img id=tier10 src=green/tier10-31-498911586.gif>
+<img id=tier10 src=green/tier10-34-498911586.gif>
+<img id=tier10 src=green/tier10-39-498911586.gif>
+<img id=tier10 src=green/tier10-40-498911586.gif>
+<img id=tier10 src=green/tier10-48-498911586.gif>
+<img id=tier10 src=green/tier10-50-498911586.gif>
+<img id=tier10 src=green/tier10-51-498911586.gif>
+<img id=tier10 src=green/tier10-53-498911586.gif>
+<img id=tier10 src=green/tier10-56-498911586.gif>
+<img id=tier10 src=green/tier10-57-498911586.gif>
+<img id=tier10 src=green/tier10-69-498911586.gif>
+<img id=tier10 src=green/tier10-70-498911586.gif>
+<img id=tier10 src=green/tier10-75-498911586.gif>
+<img id=tier10 src=green/tier10-76-498911586.gif>
+<img id=tier10 src=green/tier10-8-498911586.gif>
+<img id=tier10 src=green/tier10-85-498911586.gif>
+<img id=tier10 src=green/tier10-88-498911586.gif>
+<img id=tier10 src=green/tier10-98-498911586.gif>
+<img id=tier11 src=green/tier11-12-2517413837.gif>
+<img id=tier11 src=green/tier11-1-2517413837.gif>
+<img id=tier11 src=green/tier11-27-2517413837.gif>
+<img id=tier11 src=green/tier11-34-2517413837.gif>
+<img id=tier11 src=green/tier11-38-2517413837.gif>
+<img id=tier11 src=green/tier11-46-2517413837.gif>
+<img id=tier11 src=green/tier11-47-2517413837.gif>
+<img id=tier11 src=green/tier11-50-2517413837.gif>
+<img id=tier11 src=green/tier11-54-2517413837.gif>
+<img id=tier11 src=green/tier11-56-2517413837.gif>
+<img id=tier11 src=green/tier11-57-2517413837.gif>
+<img id=tier11 src=green/tier11-62-2517413837.gif>
+<img id=tier11 src=green/tier11-6-2517413837.gif>
+<img id=tier11 src=green/tier11-63-2517413837.gif>
+<img id=tier11 src=green/tier11-70-2517413837.gif>
+<img id=tier11 src=green/tier11-71-2517413837.gif>
+<img id=tier11 src=green/tier11-72-2517413837.gif>
+<img id=tier11 src=green/tier11-73-2517413837.gif>
+<img id=tier11 src=green/tier11-86-2517413837.gif>
+<img id=tier11 src=green/tier11-9-2517413837.gif>
+<img id=tier11 src=green/tier11-94-2517413837.gif>
+<img id=tier12 src=green/tier12-10-226119184.gif>
+<img id=tier12 src=green/tier12-13-226119184.gif>
+<img id=tier12 src=green/tier12-15-226119184.gif>
+<img id=tier12 src=green/tier12-19-226119184.gif>
+<img id=tier12 src=green/tier12-26-226119184.gif>
+<img id=tier12 src=green/tier12-27-226119184.gif>
+<img id=tier12 src=green/tier12-32-226119184.gif>
+<img id=tier12 src=green/tier12-33-226119184.gif>
+<img id=tier12 src=green/tier12-37-226119184.gif>
+<img id=tier12 src=green/tier12-45-226119184.gif>
+<img id=tier12 src=green/tier12-47-226119184.gif>
+<img id=tier12 src=green/tier12-53-226119184.gif>
+<img id=tier12 src=green/tier12-59-226119184.gif>
+<img id=tier12 src=green/tier12-63-226119184.gif>
+<img id=tier12 src=green/tier12-70-226119184.gif>
+<img id=tier12 src=green/tier12-7-226119184.gif>
+<img id=tier12 src=green/tier12-73-226119184.gif>
+<img id=tier12 src=green/tier12-74-226119184.gif>
+<img id=tier12 src=green/tier12-75-226119184.gif>
+<img id=tier12 src=green/tier12-80-226119184.gif>
+<img id=tier12 src=green/tier12-8-226119184.gif>
+<img id=tier12 src=green/tier12-85-226119184.gif>
+<img id=tier12 src=green/tier12-86-226119184.gif>
+<img id=tier12 src=green/tier12-87-226119184.gif>
+<img id=tier12 src=green/tier12-89-226119184.gif>
+<img id=tier12 src=green/tier12-91-226119184.gif>
+<img id=tier12 src=green/tier12-92-226119184.gif>
+<img id=tier12 src=green/tier12-94-226119184.gif>
+<img id=tier12 src=green/tier12-95-226119184.gif>
+<img id=tier12 src=green/tier12-97-226119184.gif>
+<img id=tier13 src=green/tier13-100-246502828.gif>
+<img id=tier13 src=green/tier13-14-246502828.gif>
+<img id=tier13 src=green/tier13-17-246502828.gif>
+<img id=tier13 src=green/tier13-22-246502828.gif>
+<img id=tier13 src=green/tier13-26-246502828.gif>
+<img id=tier13 src=green/tier13-27-246502828.gif>
+<img id=tier13 src=green/tier13-28-246502828.gif>
+<img id=tier13 src=green/tier13-38-246502828.gif>
+<img id=tier13 src=green/tier13-49-246502828.gif>
+<img id=tier13 src=green/tier13-50-246502828.gif>
+<img id=tier13 src=green/tier13-55-246502828.gif>
+<img id=tier13 src=green/tier13-67-246502828.gif>
+<img id=tier13 src=green/tier13-74-246502828.gif>
+<img id=tier13 src=green/tier13-76-246502828.gif>
+<img id=tier13 src=green/tier13-77-246502828.gif>
+<img id=tier13 src=green/tier13-78-246502828.gif>
+<img id=tier13 src=green/tier13-81-246502828.gif>
+<img id=tier13 src=green/tier13-85-246502828.gif>
+<img id=tier13 src=green/tier13-87-246502828.gif>
+<img id=tier13 src=green/tier13-89-246502828.gif>
+<img id=tier13 src=green/tier13-90-246502828.gif>
+<img id=tier13 src=green/tier13-93-246502828.gif>
+<img id=tier13 src=green/tier13-96-246502828.gif>
+<img id=tier13 src=green/tier13-97-246502828.gif>
+<img id=tier14 src=green/tier14-15-2014010098.gif>
+<img id=tier14 src=green/tier14-16-2014010098.gif>
+<img id=tier14 src=green/tier14-19-2014010098.gif>
+<img id=tier14 src=green/tier14-21-2014010098.gif>
+<img id=tier14 src=green/tier14-23-2014010098.gif>
+<img id=tier14 src=green/tier14-25-2014010098.gif>
+<img id=tier14 src=green/tier14-34-2014010098.gif>
+<img id=tier14 src=green/tier14-36-2014010098.gif>
+<img id=tier14 src=green/tier14-43-2014010098.gif>
+<img id=tier14 src=green/tier14-51-2014010098.gif>
+<img id=tier14 src=green/tier14-52-2014010098.gif>
+<img id=tier14 src=green/tier14-55-2014010098.gif>
+<img id=tier14 src=green/tier14-56-2014010098.gif>
+<img id=tier14 src=green/tier14-58-2014010098.gif>
+<img id=tier14 src=green/tier14-60-2014010098.gif>
+<img id=tier14 src=green/tier14-62-2014010098.gif>
+<img id=tier14 src=green/tier14-64-2014010098.gif>
+<img id=tier14 src=green/tier14-67-2014010098.gif>
+<img id=tier14 src=green/tier14-71-2014010098.gif>
+<img id=tier14 src=green/tier14-7-2014010098.gif>
+<img id=tier14 src=green/tier14-73-2014010098.gif>
+<img id=tier14 src=green/tier14-88-2014010098.gif>
+<img id=tier14 src=green/tier14-9-2014010098.gif>
+<img id=tier14 src=green/tier14-92-2014010098.gif>
+<img id=tier14 src=green/tier14-95-2014010098.gif>
+<img id=tier15 src=green/tier15-19-1447114752.gif>
+<img id=tier15 src=green/tier15-20-1447114752.gif>
+<img id=tier15 src=green/tier15-22-1447114752.gif>
+<img id=tier15 src=green/tier15-23-1447114752.gif>
+<img id=tier15 src=green/tier15-36-1447114752.gif>
+<img id=tier15 src=green/tier15-38-1447114752.gif>
+<img id=tier15 src=green/tier15-41-1447114752.gif>
+<img id=tier15 src=green/tier15-46-1447114752.gif>
+<img id=tier15 src=green/tier15-48-1447114752.gif>
+<img id=tier15 src=green/tier15-49-1447114752.gif>
+<img id=tier15 src=green/tier15-64-1447114752.gif>
+<img id=tier15 src=green/tier15-69-1447114752.gif>
+<img id=tier15 src=green/tier15-71-1447114752.gif>
+<img id=tier15 src=green/tier15-76-1447114752.gif>
+<img id=tier15 src=green/tier15-79-1447114752.gif>
+<img id=tier15 src=green/tier15-83-1447114752.gif>
+<img id=tier15 src=green/tier15-89-1447114752.gif>
+<img id=tier15 src=green/tier15-9-1447114752.gif>
+<img id=tier15 src=green/tier15-94-1447114752.gif>
+<br>
+
+<center> 
+ <h2>Hey trader!</h2>
+<h3>To convert our exchanged knowledge and wisdom<br>into resources for study and improvement.</br></h3> 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+If you want to contribute, <a href="google.ca"> contact</a>.<br> 
+<h2>I made 3 surveys for the community<br></br></h2>
+
+ <a href="https://www.surveymonkey.com/r/DK5HXD3">Feedback & Development</a>  
+<br><br>
+
+ <a href="https://www.surveymonkey.com/r/DK5HXD3">User personality & Trade style</a>  
+<br><br>
+
+ <a href="https://www.surveymonkey.com/r/DK5HXD3">Projects & Community</a>  
+<br> <h3>Data will be publicly available.</br></h3><br><br>
+    
+
+
+<div class="box"><img class="share_thumb" src="/home/user/day_trade/github/chart_feed/charts/chopped/save/green/1.gif"><br>
+Green Tier 1
+</div>
+<div class="box"><img class="share_thumb" src="/home/user/day_trade/github/chart_feed/charts/chopped/save/green/2.gif"><br>
+Green Tier 2
+</div>
+<div class="box"><img class="share_thumb" src="/home/user/day_trade/github/chart_feed/charts/chopped/save/green/3.gif"><br>
+Green Tier 3
+</div>
+<div class="box"><img class="share_thumb" src="/home/user/day_trade/github/chart_feed/charts/chopped/save/green/4.gif"><br>
+Green Tier 4
+</div><br>
+<div class="box"><img class="share_thumb" src="/home/user/day_trade/github/chart_feed/charts/chopped/save/red/1.gif"><br>
+Red Tier 1
+</div>
+<div class="box"><img class="share_thumb" src="/home/user/day_trade/github/chart_feed/charts/chopped/save/red/2.gif"><br>
+Red Tier 2
+</div>
+<div class="box"><img class="share_thumb" src="/home/user/day_trade/github/chart_feed/charts/chopped/save/red/3.gif"><br>
+Red Tier 3
+</div>
+<div class="box"><img class="share_thumb" src="/home/user/day_trade/github/chart_feed/charts/chopped/save/red/4.gif"><br>
+Red Tier 4
+</div>
