@@ -30,8 +30,8 @@ padding-right:20px;
 }
 .twitter_div_right {
 float:right;  
- 
-padding-right:25px;
+padding-left:8px;
+padding-right:20px;
 }
 
 
@@ -112,6 +112,7 @@ border-radius:6px;
 padding:20px;
 margin:30px;
 margin-right:50px;
+max-width:300px;
 }
 .resource_link_div_right {
 max-width:300px;
@@ -442,25 +443,4 @@ body{margin-right:0px;}
  -moz-animation: example2 15s linear infinite;
  -webkit-animation: example2 15s linear infinite;
  animation: example2 15s linear infinite;
-}
-/* Move it (define the animation) */
-@-moz-keyframes example2 {
- 0%   { -moz-transform: translateX(-100%); }
- 100% { -moz-transform: translateX(100%); }
-}
-@-webkit-keyframes example2 {
- 0%   { -webkit-transform: translateX(-100%); }
- 100% { -webkit-transform: translateX(100%); }
-}
-@keyframes example2 {
- 0%   { 
- -moz-transform: translateX(-100%); /* Firefox bug fix */
- -webkit-transform: translateX(-100%); /* Firefox bug fix */
- transform: translateX(-100%); 		
- }
- 100% { 
- -moz-transform: translateX(100%); /* Firefox bug fix */
- -webkit-transform: translateX(100%); /* Firefox bug fix */
- transform: translateX(100%); 
- }
-}
+} 
