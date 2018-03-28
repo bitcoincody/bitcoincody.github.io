@@ -8,14 +8,14 @@ html {
 
 .resource_link_div_left, .resource_link_div_right,
 .resource_link, .chan_link_right, .chan_link_left {
-opacity:0.40;
+opacity:0.60;
 text-decoration:none!important; 
 border-color:#555!important;
 color:white!important;
 margin-left:10px;  }
 
  .twitter_div_left {
-opacity:0.30;
+opacity:0.40;
 margin-left:10px;  }
  
 
