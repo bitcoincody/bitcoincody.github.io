@@ -43,7 +43,7 @@ font-size:12px; line-height:17px;
 color:#999!important;
 font-size:18px;}
 
-.swing-banner .love {font-size:13px;  color:	#eeb2b2!important;}
+.swing-banner .love {font-size:13px;  padding-left:8px; color:	#eeb2b2!important;}
 .swing-banner a{
 font-weight:600;
 color:#fff!important;
@@ -159,7 +159,7 @@ overflow-x: hidden!important;}
  
  
  .exchange_buttons {
- opacity:0.4;
+ opacity:0.7;
  padding-left:10px;}
  
  button{border:none!important;
