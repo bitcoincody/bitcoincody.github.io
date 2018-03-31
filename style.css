@@ -14,7 +14,7 @@ ul .unchecked-box {
   background: url(https://findicons.com/files/icons/2139/uidesign/16/checkbox_yes.png) no-repeat 0px 4px transparent;
   padding-left:20px;
   text-decoration:line-through;
-
+  font-weight:100;
 }
 
 
