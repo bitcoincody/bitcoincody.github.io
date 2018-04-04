@@ -120,3 +120,6 @@ body > div.charts > a > div.ZEC {display:block!important;}
 body > div.charts > a > div.ZIL {display:block!important;}
 body > div.charts > a > div.ZRX {display:block!important;}
 body > div.charts > a > div {display:none!important;}
+
+body > div.swing-banner > b::after{content:" Binance";}
+button.binance {font-weight:900!important;}

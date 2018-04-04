@@ -1,37 +1,34 @@
-.BCC .chart_title,
-.BCD .chart_title,
-.BOT .chart_title,
-.BTC .chart_title,
-.BTM .chart_title,
-.BTS .chart_title,
-.CAN .chart_title,
-.CFUN .chart_title,
-.CHAT .chart_title,
-.EOS .chart_title,
-.EPC .chart_title,
-.ETC .chart_title,
-.ETH .chart_title,
-.ETP .chart_title,
-.HPY .chart_title,
-.HSR .chart_title,
-.INK .chart_title,
-.LBTC .chart_title,
-.LTC .chart_title,
-.MCO .chart_title,
-.MONA .chart_title,
-.QASH .chart_title,
-.QBT .chart_title,
-.QTUM .chart_title,
-.SBTC .chart_title,
-.SEXC .chart_title,
-.SPC .chart_title,
-.TSL .chart_title,
-.UBTC .chart_title,
-.VLC .chart_title,
-.XWC .chart_title,
-.reeeeeeee{
-	color:#cdc673; 
-  	font-weight:900; 
-	margin-bottom:2px;
-	}
-	
+body > div.charts > a > div.BCC {display:block!important;}
+body > div.charts > a > div.BCD {display:block!important;}
+body > div.charts > a > div.BOT {display:block!important;}
+body > div.charts > a > div.BTC {display:block!important;}
+body > div.charts > a > div.BTM {display:block!important;}
+body > div.charts > a > div.BTS {display:block!important;}
+body > div.charts > a > div.CAN {display:block!important;}
+body > div.charts > a > div.CFUN {display:block!important;}
+body > div.charts > a > div.CHAT {display:block!important;}
+body > div.charts > a > div.EOS {display:block!important;}
+body > div.charts > a > div.EPC {display:block!important;}
+body > div.charts > a > div.ETC {display:block!important;}
+body > div.charts > a > div.ETH {display:block!important;}
+body > div.charts > a > div.ETP {display:block!important;}
+body > div.charts > a > div.HPY {display:block!important;}
+body > div.charts > a > div.HSR {display:block!important;}
+body > div.charts > a > div.INK {display:block!important;}
+body > div.charts > a > div.LBTC {display:block!important;}
+body > div.charts > a > div.LTC {display:block!important;}
+body > div.charts > a > div.MCO {display:block!important;}
+body > div.charts > a > div.MONA {display:block!important;}
+body > div.charts > a > div.QASH {display:block!important;}
+body > div.charts > a > div.QBT {display:block!important;}
+body > div.charts > a > div.QTUM {display:block!important;}
+body > div.charts > a > div.SBTC {display:block!important;}
+body > div.charts > a > div.SEXC {display:block!important;}
+body > div.charts > a > div.SPC {display:block!important;}
+body > div.charts > a > div.TSL {display:block!important;}
+body > div.charts > a > div.UBTC {display:block!important;}
+body > div.charts > a > div.VLC {display:block!important;}
+body > div.charts > a > div.XWC {display:block!important;}
+body > div.charts > a > div {display:none!important;}
+body > div.swing-banner > b::after{content:" $exchange_url";}
+button.$exchange_url {font-weight:900!important;}

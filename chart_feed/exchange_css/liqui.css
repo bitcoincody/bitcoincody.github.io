@@ -1,4 +1,3 @@
-.charts *{display:none!important;}
 body > div.charts > a > div.ADX {display:block!important;}
 body > div.charts > a > div.AE {display:block!important;}
 body > div.charts > a > div.AION {display:block!important;}
@@ -71,3 +70,4 @@ body > div.charts > a > div.WINGS {display:block!important;}
 body > div.charts > a > div.WPR {display:block!important;}
 body > div.charts > a > div.XID {display:block!important;}
 body > div.charts > a > div.ZRX {display:block!important;}
+body > div.charts > a > div {display:none!important;}
