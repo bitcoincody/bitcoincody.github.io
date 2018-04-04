@@ -71,3 +71,5 @@ body > div.charts > a > div.WPR {display:block!important;}
 body > div.charts > a > div.XID {display:block!important;}
 body > div.charts > a > div.ZRX {display:block!important;}
 body > div.charts > a > div {display:none!important;}
+body > div.swing-banner > b::after{content:' liqui';}
+button.liqui {font-weight:900!important; font-size:15px!important;}

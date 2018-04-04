@@ -1,16 +1,13 @@
-.BCH .chart_title,
-.BTC .chart_title,
-.DASH .chart_title,
-.ETH .chart_title,
-.NEO .chart_title,
-.QASH .chart_title,
-.QTUM .chart_title,
-.RKT .chart_title,
-.UBTC .chart_title,
-.XRP .chart_title,
-.reeeeeeee{
-	color:#ab82ff; 
-  	font-weight:900; 
-	margin-bottom:2px;
-	}
-	
+body > div.charts > a > div.BCH {display:block!important;}
+body > div.charts > a > div.BTC {display:block!important;}
+body > div.charts > a > div.DASH {display:block!important;}
+body > div.charts > a > div.ETH {display:block!important;}
+body > div.charts > a > div.NEO {display:block!important;}
+body > div.charts > a > div.QASH {display:block!important;}
+body > div.charts > a > div.QTUM {display:block!important;}
+body > div.charts > a > div.RKT {display:block!important;}
+body > div.charts > a > div.UBTC {display:block!important;}
+body > div.charts > a > div.XRP {display:block!important;}
+body > div.charts > a > div {display:none!important;}
+body > div.swing-banner > b::after{content:' quoine';}
+button.quoine {font-weight:900!important; font-size:15px!important;}

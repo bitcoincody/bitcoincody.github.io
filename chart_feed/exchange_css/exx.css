@@ -31,4 +31,4 @@ body > div.charts > a > div.VLC {display:block!important;}
 body > div.charts > a > div.XWC {display:block!important;}
 body > div.charts > a > div {display:none!important;}
 body > div.swing-banner > b::after{content:' exx';}
-button.exx {font-weight:900!important;}
+button.exx {font-weight:900!important; font-size:15px!important;}
