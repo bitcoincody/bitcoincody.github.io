@@ -1,3 +1,4 @@
+.charts *{display:none!important;}
 body > div.charts > a > div.AAC {display:block!important;}
 body > div.charts > a > div.ABT {display:block!important;}
 body > div.charts > a > div.ACE {display:block!important;}
@@ -151,4 +152,3 @@ body > div.charts > a > div.YOYO {display:block!important;}
 body > div.charts > a > div.ZEC {display:block!important;}
 body > div.charts > a > div.ZEN {display:block!important;}
 body > div.charts > a > div.ZRX {display:block!important;}
-body > div.charts > a > div *{display:none!important;}
