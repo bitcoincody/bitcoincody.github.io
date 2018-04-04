@@ -39,6 +39,7 @@ body > div.charts > a > div.EVX {display:block!important;}
 body > div.charts > a > div.FUEL {display:block!important;}
 body > div.charts > a > div.FUN {display:block!important;}
 body > div.charts > a > div.GAS {display:block!important;}
+body > div.charts > a > div.GRS {display:block!important;}
 body > div.charts > a > div.GTO {display:block!important;}
 body > div.charts > a > div.GVT {display:block!important;}
 body > div.charts > a > div.GXS {display:block!important;}
@@ -120,6 +121,5 @@ body > div.charts > a > div.ZEC {display:block!important;}
 body > div.charts > a > div.ZIL {display:block!important;}
 body > div.charts > a > div.ZRX {display:block!important;}
 body > div.charts > a > div {display:none!important;}
-
-body > div.swing-banner > b::after{content:" Binance";}
-button.binance {font-weight:900!important;}
+body > div.swing-banner > b::after{content:' binance';}
+button.binance {font-weight:900!important; font-size:15px!important;}

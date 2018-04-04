@@ -1,10 +1,7 @@
-.BCH .chart_title,
-.BTC .chart_title,
-.ETH .chart_title,
-.LTC .chart_title,
-.reeeeeeee{
-	color:#ff8247; 
-  	font-weight:900; 
-	margin-bottom:2px;
-	}
-	
+body > div.charts > a > div.BCH {display:block!important;}
+body > div.charts > a > div.BTC {display:block!important;}
+body > div.charts > a > div.ETH {display:block!important;}
+body > div.charts > a > div.LTC {display:block!important;}
+body > div.charts > a > div {display:none!important;}
+body > div.swing-banner > b::after{content:' gdax';}
+button.gdax {font-weight:900!important; font-size:15px!important;}

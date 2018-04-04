@@ -1,102 +1,99 @@
-.ABT .chart_title,
-.ACT .chart_title,
-.ADX .chart_title,
-.AIDOC .chart_title,
-.APPC .chart_title,
-.AST .chart_title,
-.BAT .chart_title,
-.BCD .chart_title,
-.BCH .chart_title,
-.BCX .chart_title,
-.BLZ .chart_title,
-.BTC .chart_title,
-.BTG .chart_title,
-.BTM .chart_title,
-.CHAT .chart_title,
-.CMT .chart_title,
-.CVC .chart_title,
-.DASH .chart_title,
-.DAT .chart_title,
-.DBC .chart_title,
-.DGD .chart_title,
-.DTA .chart_title,
-.EKO .chart_title,
-.ELA .chart_title,
-.ELF .chart_title,
-.ENG .chart_title,
-.EOS .chart_title,
-.ETC .chart_title,
-.ETH .chart_title,
-.EVX .chart_title,
-.GAS .chart_title,
-.GNT .chart_title,
-.GNX .chart_title,
-.HSR .chart_title,
-.HT .chart_title,
-.ICX .chart_title,
-.IOST .chart_title,
-.ITC .chart_title,
-.KNC .chart_title,
-.LET .chart_title,
-.LINK .chart_title,
-.LSK .chart_title,
-.LTC .chart_title,
-.LUN .chart_title,
-.MANA .chart_title,
-.MCO .chart_title,
-.MDS .chart_title,
-.MEE .chart_title,
-.MTL .chart_title,
-.MTN .chart_title,
-.MTX .chart_title,
-.NAS .chart_title,
-.NEO .chart_title,
-.OCN .chart_title,
-.OMG .chart_title,
-.ONT .chart_title,
-.OST .chart_title,
-.PAY .chart_title,
-.POWR .chart_title,
-.PROPY .chart_title,
-.QASH .chart_title,
-.QSP .chart_title,
-.QTUM .chart_title,
-.QUN .chart_title,
-.RCN .chart_title,
-.RDN .chart_title,
-.REQ .chart_title,
-.RPX .chart_title,
-.RUFF .chart_title,
-.SALT .chart_title,
-.SBTC .chart_title,
-.SMT .chart_title,
-.SNC .chart_title,
-.SNT .chart_title,
-.SOC .chart_title,
-.SRN .chart_title,
-.STK .chart_title,
-.STORJ .chart_title,
-.SWFTC .chart_title,
-.THETA .chart_title,
-.TNB .chart_title,
-.TNT .chart_title,
-.TOPC .chart_title,
-.TRX .chart_title,
-.UTK .chart_title,
-.VEN .chart_title,
-.WAX .chart_title,
-.WICC .chart_title,
-.WPR .chart_title,
-.XEM .chart_title,
-.XRP .chart_title,
-.YEE .chart_title,
-.ZEC .chart_title,
-.ZIL .chart_title,
-.ZLA .chart_title,
-.ZRX .chart_title,
-.reeeeeeee{
-	color:lightblue; 
-  	font-weight:900; 
-	margin-bottom:2px;
-	}
-	
+body > div.charts > a > div.ABT {display:block!important;}
+body > div.charts > a > div.ACT {display:block!important;}
+body > div.charts > a > div.ADX {display:block!important;}
+body > div.charts > a > div.AIDOC {display:block!important;}
+body > div.charts > a > div.APPC {display:block!important;}
+body > div.charts > a > div.AST {display:block!important;}
+body > div.charts > a > div.BAT {display:block!important;}
+body > div.charts > a > div.BCD {display:block!important;}
+body > div.charts > a > div.BCH {display:block!important;}
+body > div.charts > a > div.BCX {display:block!important;}
+body > div.charts > a > div.BLZ {display:block!important;}
+body > div.charts > a > div.BTC {display:block!important;}
+body > div.charts > a > div.BTG {display:block!important;}
+body > div.charts > a > div.BTM {display:block!important;}
+body > div.charts > a > div.CHAT {display:block!important;}
+body > div.charts > a > div.CMT {display:block!important;}
+body > div.charts > a > div.CVC {display:block!important;}
+body > div.charts > a > div.DASH {display:block!important;}
+body > div.charts > a > div.DAT {display:block!important;}
+body > div.charts > a > div.DBC {display:block!important;}
+body > div.charts > a > div.DGD {display:block!important;}
+body > div.charts > a > div.DTA {display:block!important;}
+body > div.charts > a > div.EKO {display:block!important;}
+body > div.charts > a > div.ELA {display:block!important;}
+body > div.charts > a > div.ELF {display:block!important;}
+body > div.charts > a > div.ENG {display:block!important;}
+body > div.charts > a > div.EOS {display:block!important;}
+body > div.charts > a > div.ETC {display:block!important;}
+body > div.charts > a > div.ETH {display:block!important;}
+body > div.charts > a > div.EVX {display:block!important;}
+body > div.charts > a > div.GAS {display:block!important;}
+body > div.charts > a > div.GNT {display:block!important;}
+body > div.charts > a > div.GNX {display:block!important;}
+body > div.charts > a > div.HSR {display:block!important;}
+body > div.charts > a > div.HT {display:block!important;}
+body > div.charts > a > div.ICX {display:block!important;}
+body > div.charts > a > div.IOST {display:block!important;}
+body > div.charts > a > div.ITC {display:block!important;}
+body > div.charts > a > div.KNC {display:block!important;}
+body > div.charts > a > div.LET {display:block!important;}
+body > div.charts > a > div.LINK {display:block!important;}
+body > div.charts > a > div.LSK {display:block!important;}
+body > div.charts > a > div.LTC {display:block!important;}
+body > div.charts > a > div.LUN {display:block!important;}
+body > div.charts > a > div.MANA {display:block!important;}
+body > div.charts > a > div.MCO {display:block!important;}
+body > div.charts > a > div.MDS {display:block!important;}
+body > div.charts > a > div.MEE {display:block!important;}
+body > div.charts > a > div.MTL {display:block!important;}
+body > div.charts > a > div.MTN {display:block!important;}
+body > div.charts > a > div.MTX {display:block!important;}
+body > div.charts > a > div.NAS {display:block!important;}
+body > div.charts > a > div.NEO {display:block!important;}
+body > div.charts > a > div.OCN {display:block!important;}
+body > div.charts > a > div.OMG {display:block!important;}
+body > div.charts > a > div.ONT {display:block!important;}
+body > div.charts > a > div.OST {display:block!important;}
+body > div.charts > a > div.PAY {display:block!important;}
+body > div.charts > a > div.POWR {display:block!important;}
+body > div.charts > a > div.PROPY {display:block!important;}
+body > div.charts > a > div.QASH {display:block!important;}
+body > div.charts > a > div.QSP {display:block!important;}
+body > div.charts > a > div.QTUM {display:block!important;}
+body > div.charts > a > div.QUN {display:block!important;}
+body > div.charts > a > div.RCN {display:block!important;}
+body > div.charts > a > div.RDN {display:block!important;}
+body > div.charts > a > div.REQ {display:block!important;}
+body > div.charts > a > div.RPX {display:block!important;}
+body > div.charts > a > div.RUFF {display:block!important;}
+body > div.charts > a > div.SALT {display:block!important;}
+body > div.charts > a > div.SBTC {display:block!important;}
+body > div.charts > a > div.SMT {display:block!important;}
+body > div.charts > a > div.SNC {display:block!important;}
+body > div.charts > a > div.SNT {display:block!important;}
+body > div.charts > a > div.SOC {display:block!important;}
+body > div.charts > a > div.SRN {display:block!important;}
+body > div.charts > a > div.STK {display:block!important;}
+body > div.charts > a > div.STORJ {display:block!important;}
+body > div.charts > a > div.SWFTC {display:block!important;}
+body > div.charts > a > div.THETA {display:block!important;}
+body > div.charts > a > div.TNB {display:block!important;}
+body > div.charts > a > div.TNT {display:block!important;}
+body > div.charts > a > div.TOPC {display:block!important;}
+body > div.charts > a > div.TRX {display:block!important;}
+body > div.charts > a > div.UTK {display:block!important;}
+body > div.charts > a > div.VEN {display:block!important;}
+body > div.charts > a > div.WAX {display:block!important;}
+body > div.charts > a > div.WICC {display:block!important;}
+body > div.charts > a > div.WPR {display:block!important;}
+body > div.charts > a > div.XEM {display:block!important;}
+body > div.charts > a > div.XRP {display:block!important;}
+body > div.charts > a > div.YEE {display:block!important;}
+body > div.charts > a > div.ZEC {display:block!important;}
+body > div.charts > a > div.ZIL {display:block!important;}
+body > div.charts > a > div.ZLA {display:block!important;}
+body > div.charts > a > div.ZRX {display:block!important;}
+body > div.charts > a > div {display:none!important;}
+body > div.swing-banner > b::after{content:' huobi';}
+button.huobi {font-weight:900!important; font-size:15px!important;}

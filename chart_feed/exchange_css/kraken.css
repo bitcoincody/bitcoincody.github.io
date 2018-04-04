@@ -1,23 +1,20 @@
-.BCH .chart_title,
-.BTC .chart_title,
-.DASH .chart_title,
-.DOGE .chart_title,
-.EOS .chart_title,
-.ETC .chart_title,
-.ETH .chart_title,
-.GNO .chart_title,
-.ICN .chart_title,
-.LTC .chart_title,
-.MLN .chart_title,
-.REP .chart_title,
-.USDT .chart_title,
-.XLM .chart_title,
-.XMR .chart_title,
-.XRP .chart_title,
-.ZEC .chart_title,
-.reeeeeeee{
-	color:white; 
-  	font-weight:900; 
-	margin-bottom:2px;
-	}
-	
+body > div.charts > a > div.BCH {display:block!important;}
+body > div.charts > a > div.BTC {display:block!important;}
+body > div.charts > a > div.DASH {display:block!important;}
+body > div.charts > a > div.DOGE {display:block!important;}
+body > div.charts > a > div.EOS {display:block!important;}
+body > div.charts > a > div.ETC {display:block!important;}
+body > div.charts > a > div.ETH {display:block!important;}
+body > div.charts > a > div.GNO {display:block!important;}
+body > div.charts > a > div.ICN {display:block!important;}
+body > div.charts > a > div.LTC {display:block!important;}
+body > div.charts > a > div.MLN {display:block!important;}
+body > div.charts > a > div.REP {display:block!important;}
+body > div.charts > a > div.USDT {display:block!important;}
+body > div.charts > a > div.XLM {display:block!important;}
+body > div.charts > a > div.XMR {display:block!important;}
+body > div.charts > a > div.XRP {display:block!important;}
+body > div.charts > a > div.ZEC {display:block!important;}
+body > div.charts > a > div {display:none!important;}
+body > div.swing-banner > b::after{content:' kraken';}
+button.kraken {font-weight:900!important; font-size:15px!important;}
