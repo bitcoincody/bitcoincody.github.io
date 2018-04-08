@@ -50,6 +50,10 @@
 /* smallest screen */
 
  
+ td > a {  
+letter-spacing:1.0!important;
+}
+ 
 .pages{padding-left:0px;}
 body{padding-left:10px;
 }

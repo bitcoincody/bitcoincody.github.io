@@ -354,15 +354,21 @@ div.content a {text-decoration:underline;}
 
 #marquee-element > div > a {text-decoration:none!important;}
 #marquee-element > div {margin-top:-20px;}
-td > a { border-bottom:1px solid;
-padding-bottom:3px;
-letter-spacing:1.4;
-text-decoration:none;
 
-background-image:url(https://cdn2.iconfinder.com/data/icons/oxygen/16x16/emblems/emblem-symbolic-link.png);
+
+
+td > a {  
+letter-spacing:1.9;
+background-image:url(https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-16.png);
 padding-left:20px;
-background-repeat: no-repeat; }
+padding-top:3px;
+margin-left:5px;
+padding-bottom:3px;
+background-repeat: no-repeat; 
+text-decoration:none;
+}
 
+td > a::af 
 
 
 .footer_element {color:#dfe3ee!important;
