@@ -128,7 +128,19 @@ body > div.charts > a > div.XZC {display:block!important;}
 body > div.charts > a > div.ZEC {display:block!important;}
 body > div.charts > a > div.ZEN {display:block!important;}
 body > div.charts > a > div.ZRX {display:block!important;}
-body > div.charts > a > div {display:none!important;}
-body > div.swing-banner > b > span:nth-child(6)::after{content:'Exchange: upbit';}
+body > div.charts > a > div {display:none!important;} 
+
+
+body > div.charts::before{content:'Exchange: upbit'; 
+padding-top:30px;
+float:right;
+position:fixed;
+
+left:0px;
+margin-bottom:50px!important;}
+
+
+div.charts {margin-top:30px;}
+
 
 button.upbit {font-weight:900!important; font-size:15px!important;}
