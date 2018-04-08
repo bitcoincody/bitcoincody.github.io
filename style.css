@@ -272,8 +272,12 @@ margin-bottom:10px;
 
 .header-background{
   background: linear-gradient(rgba(0,0,0,.0), rgba(0,0,0,1)), url("https://pbs.twimg.com/media/DTzx-_5W4AEyxNJ.jpg:large");
- opacity:0.5;
+ opacity:0.9;
 }
+
+.header-background:hover{
+opacity:1!important;}
+
 .navigation{padding-bottom:43px;}
 .header-text{padding-top:40px;}
 .banner-icon{
