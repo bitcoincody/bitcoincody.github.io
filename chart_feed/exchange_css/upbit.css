@@ -128,17 +128,6 @@ body > div.charts > a > div.XZC {display:block!important;}
 body > div.charts > a > div.ZEC {display:block!important;}
 body > div.charts > a > div.ZEN {display:block!important;}
 body > div.charts > a > div.ZRX {display:block!important;}
-body > div.charts > a > div {display:none!important;} 
-
-
-body > div.charts::before{content:'Exchange: upbit'; 
-padding-top:30px; 
-position:relative;
- 
-margin-bottom:50px!important;}
-
-
-div.charts {margin-top:30px;}
-
-
-button.upbit {font-weight:900!important; font-size:15px!important;}
+body > div.charts > a > div {display:none!important;}
+body > div.swing-banner > b::after{content:'Exchange: upbit';}
+button.poloniex {font-weight:900!important; font-size:15px!important;}
