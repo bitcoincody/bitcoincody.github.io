@@ -3,5 +3,5 @@ body > div.charts > a > div.BTC {display:block!important;}
 body > div.charts > a > div.ETH {display:block!important;}
 body > div.charts > a > div.LTC {display:block!important;}
 body > div.charts > a > div {display:none!important;}
-body > div.swing-banner > b::after{content:' gdax';}
+body > div.swing-banner > b::after{content:'Exchange: gdax';}
 button.gdax {font-weight:900!important; font-size:15px!important;}

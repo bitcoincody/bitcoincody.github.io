@@ -95,5 +95,5 @@ body > div.charts > a > div.ZIL {display:block!important;}
 body > div.charts > a > div.ZLA {display:block!important;}
 body > div.charts > a > div.ZRX {display:block!important;}
 body > div.charts > a > div {display:none!important;}
-body > div.swing-banner > b::after{content:' huobi';}
+body > div.swing-banner > b::after{content:'Exchange: huobi';}
 button.huobi {font-weight:900!important; font-size:15px!important;}

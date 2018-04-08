@@ -56,5 +56,5 @@ body > div.charts > a > div.ZEC {display:block!important;}
 body > div.charts > a > div.ZGC {display:block!important;}
 body > div.charts > a > div.ZSC {display:block!important;}
 body > div.charts > a > div {display:none!important;}
-body > div.swing-banner > b::after{content:' bit-z';}
+body > div.swing-banner > b::after{content:'Exchange: bit-z';}
 button.bit-z {font-weight:900!important; font-size:15px!important;}

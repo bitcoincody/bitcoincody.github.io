@@ -67,5 +67,5 @@ body > div.charts > a > div.XVC {display:block!important;}
 body > div.charts > a > div.ZEC {display:block!important;}
 body > div.charts > a > div.ZRX {display:block!important;}
 body > div.charts > a > div {display:none!important;}
-body > div.swing-banner > b::after{content:' poloniex';}
+body > div.swing-banner > b::after{content:'Exchange: poloniex';}
 button.poloniex {font-weight:900!important; font-size:15px!important;}

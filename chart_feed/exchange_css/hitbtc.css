@@ -274,5 +274,5 @@ body > div.charts > a > div.ZRC {display:block!important;}
 body > div.charts > a > div.ZRX {display:block!important;}
 body > div.charts > a > div.ZSC {display:block!important;}
 body > div.charts > a > div {display:none!important;}
-body > div.swing-banner > b::after{content:' hitbtc';}
+body > div.swing-banner > b::after{content:'Exchange: hitbtc';}
 button.hitbtc {font-weight:900!important; font-size:15px!important;}

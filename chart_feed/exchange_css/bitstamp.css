@@ -4,5 +4,5 @@ body > div.charts > a > div.ETH {display:block!important;}
 body > div.charts > a > div.LTC {display:block!important;}
 body > div.charts > a > div.XRP {display:block!important;}
 body > div.charts > a > div {display:none!important;}
-body > div.swing-banner > b::after{content:' bitstamp';}
+body > div.swing-banner > b::after{content:'Exchange: bitstamp';}
 button.bitstamp {font-weight:900!important; font-size:15px!important;}

@@ -30,5 +30,5 @@ body > div.charts > a > div.UBTC {display:block!important;}
 body > div.charts > a > div.VLC {display:block!important;}
 body > div.charts > a > div.XWC {display:block!important;}
 body > div.charts > a > div {display:none!important;}
-body > div.swing-banner > b::after{content:' exx';}
+body > div.swing-banner > b::after{content:'Exchange: exx';}
 button.exx {font-weight:900!important; font-size:15px!important;}

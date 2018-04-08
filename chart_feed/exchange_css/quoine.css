@@ -9,5 +9,5 @@ body > div.charts > a > div.RKT {display:block!important;}
 body > div.charts > a > div.UBTC {display:block!important;}
 body > div.charts > a > div.XRP {display:block!important;}
 body > div.charts > a > div {display:none!important;}
-body > div.swing-banner > b::after{content:' quoine';}
+body > div.swing-banner > b::after{content:'Exchange: quoine';}
 button.quoine {font-weight:900!important; font-size:15px!important;}

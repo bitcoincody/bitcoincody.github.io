@@ -152,5 +152,5 @@ body > div.charts > a > div.ZEC {display:block!important;}
 body > div.charts > a > div.ZEN {display:block!important;}
 body > div.charts > a > div.ZRX {display:block!important;}
 body > div.charts > a > div {display:none!important;}
-body > div.swing-banner > b::after{content:' okex';}
+body > div.swing-banner > b::after{content:'Exchange: okex';}
 button.okex {font-weight:900!important; font-size:15px!important;}

@@ -1,3 +1,3 @@
 body > div.charts > a > div {display:none!important;}
-body > div.swing-banner > b::after{content:' bits';}
+body > div.swing-banner > b::after{content:'Exchange: bits';}
 button.bits {font-weight:900!important; font-size:15px!important;}

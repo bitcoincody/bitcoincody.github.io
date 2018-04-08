@@ -16,5 +16,5 @@ body > div.charts > a > div.XMR {display:block!important;}
 body > div.charts > a > div.XRP {display:block!important;}
 body > div.charts > a > div.ZEC {display:block!important;}
 body > div.charts > a > div {display:none!important;}
-body > div.swing-banner > b::after{content:' kraken';}
+body > div.swing-banner > b::after{content:'Exchange: kraken';}
 button.kraken {font-weight:900!important; font-size:15px!important;}

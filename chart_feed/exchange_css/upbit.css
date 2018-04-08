@@ -129,5 +129,6 @@ body > div.charts > a > div.ZEC {display:block!important;}
 body > div.charts > a > div.ZEN {display:block!important;}
 body > div.charts > a > div.ZRX {display:block!important;}
 body > div.charts > a > div {display:none!important;}
-body > div.swing-banner > b::after{content:' upbit';}
+body > div.swing-banner > b > span:nth-child(6)::after{content:'Exchange: upbit';}
+
 button.upbit {font-weight:900!important; font-size:15px!important;}

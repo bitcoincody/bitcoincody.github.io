@@ -131,5 +131,5 @@ body > div.charts > a > div.ZPT {display:block!important;}
 body > div.charts > a > div.ZRX {display:block!important;}
 body > div.charts > a > div.ZSC {display:block!important;}
 body > div.charts > a > div {display:none!important;}
-body > div.swing-banner > b::after{content:' gate-io';}
+body > div.swing-banner > b::after{content:'Exchange: gate-io';}
 button.gate-io {font-weight:900!important; font-size:15px!important;}
