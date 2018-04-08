@@ -132,11 +132,9 @@ body > div.charts > a > div {display:none!important;}
 
 
 body > div.charts::before{content:'Exchange: upbit'; 
-padding-top:30px;
-float:right;
-position:fixed;
-
-left:0px;
+padding-top:30px; 
+position:relative;
+ 
 margin-bottom:50px!important;}
 
 
