@@ -354,7 +354,14 @@ div.content a {text-decoration:underline;}
 
 #marquee-element > div > a {text-decoration:none!important;}
 #marquee-element > div {margin-top:-20px;}
-td > a {text-decoration:underline;}
+td > a { border-bottom:1px solid;
+padding-bottom:3px;
+letter-spacing:1.4;
+text-decoration:none;
+
+background-image:url(https://cdn2.iconfinder.com/data/icons/oxygen/16x16/emblems/emblem-symbolic-link.png);
+padding-left:20px;
+background-repeat: no-repeat; }
 
 
 
