@@ -271,8 +271,8 @@ margin-bottom:10px;
 }
 
 .header-background{
-
-background-image:url(https://pbs.twimg.com/media/DTzx-_5W4AEyxNJ.jpg:large);
+  background: linear-gradient(rgba(0,0,0,.0), rgba(0,0,0,1)), url("https://pbs.twimg.com/media/DTzx-_5W4AEyxNJ.jpg:large");
+ opacity:0.5;
 }
 .navigation{padding-bottom:43px;}
 .header-text{padding-top:40px;}
