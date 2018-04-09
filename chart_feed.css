@@ -219,8 +219,7 @@ padding:0px!important;
 font-size:11px!important;
 margin:0px!important; 
 font-family:roboto;
-background:white!important;
-font-weight:300!important;
+ font-weight:300!important;
 } 
   
 
@@ -402,9 +401,7 @@ color:#999!important;
 body > div.charts > a:nth-child(even)  {
 color:#777!important;
 }
- .chart_thumb {	
-	 border-bottom:1px solid #090909;
-	 border-left:1px solid #060606; 
+ .chart_thumb {	 
  	 margin-right:-1px;
 	 margin-bottom:-1px;
 }
@@ -417,7 +414,7 @@ body {
  margin:0px;
 padding:0px;
 font-family:roboto;
-background-color:white;
+background-color:#f1f1f1;
 color:white;
 margin-right:300px;
 }
