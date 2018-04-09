@@ -393,7 +393,9 @@ hr {opacity:0}
 	padding-top:3px; 
  
 	padding-bottom:0px;
-	z-index:9999!important;}
+	z-index:9999!important;
+	float:right;}
+	
 body > div.charts > a:nth-child(odd)  {
 color:#999!important;
 }
