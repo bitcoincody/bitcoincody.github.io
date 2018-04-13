@@ -410,7 +410,7 @@ color:#777!important;
 	
 	
 body { 
-	font-size:10px;
+	font-size:17px;
 	font-weight:300;
 	letter-spacing:1.5;
 	font-family:roboto;
@@ -418,7 +418,7 @@ body {
 padding:0px;
 font-family:roboto;
 background-color:#fff;
-color:white;  
+  
 }
  
 
@@ -450,3 +450,29 @@ button{background-color:white!important;
 background-color:#f1f1f1!important;}
 
   
+.chan_link_left {color:black!important;
+font-weight:800; 
+line-height:24px;
+ font-size:20px!important;}
+
+.chan_link_header {color:red;}
+
+.chat_link_left i,
+.chan_link_style{
+font-weight:500!important; 
+}
+
+
+.chan_link_left > a,
+.chan_link_left > i {
+
+color:black!important;
+font-size:19px!important;
+font-weight:100!important;
+line-height:19px;
+
+}
+
+
+.chan_link_left > a {padding-bottom:20px!Important;
+font-weight:900!important;}
