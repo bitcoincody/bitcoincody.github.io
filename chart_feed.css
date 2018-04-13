@@ -455,7 +455,7 @@ font-weight:800;
 line-height:24px;
  font-size:20px!important;}
 
-.chan_link_header {color:red;}
+
 
 .chat_link_left i,
 .chan_link_style{
@@ -474,5 +474,9 @@ line-height:19px;
 }
 
 
-.chan_link_left > a {padding-bottom:20px!Important;
-font-weight:900!important;}
+.chan_link_left > a {padding-bottom:0px!Important;
+font-weight:500!important;}
+
+.chan_link_header {color:red!important;}
+
+ 
