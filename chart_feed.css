@@ -408,6 +408,7 @@ color:#777!important;
 	 margin-bottom:-1px;
 }
 	
+	
 body { 
 	font-size:10px;
 	font-weight:300;
@@ -417,66 +418,35 @@ body {
 padding:0px;
 font-family:roboto;
 background-color:#fff;
-color:white;
-margin-right:300px;
+color:white;  
 }
-	 
+ 
 
 
-
-
-
-@media only screen and (max-width: 914px) {
-body {margin-right:0px!important;}
+@media only screen and (max-width: 1114px) {
 body > div:nth-child(1) {display:none!important;}
+.charts{padding-left:8px!important;}
+body {margin-right:0px!important;}
+}
 
-.charts{padding-left:17px!important;}
+
+ 
+
+
+@media only screen and (min-width: 914px) {
+body   {margin-right:190px!important;}
+.charts{padding-left:8px!important;}
 }
 
 
 
-
-
-
-
-
-
-@media only screen and (max-width: 514px) {
-.sidebar, h1,h2{display:none}
-.poll {width:100%!important;}
-
-
-
-
-.example2 {
- height: 50px;	
- overflow: hidden;
- position: relative;
-}
-.example2 h3 {
- position: absolute;
- width: 100%;
- height: 100%;
- margin: 0;
- line-height: 50px;
- text-align: center;
- /* Starting position */
- -moz-transform:translateX(-100%);
- -webkit-transform:translateX(-100%);	
- transform:translateX(-100%);
- /* Apply animation to this element */	
- -moz-animation: example2 15s linear infinite;
- -webkit-animation: example2 15s linear infinite;
- animation: example2 15s linear infinite;
-}   
-
-} 
-
+ 
 
 
 
 * { color:black!important;}
 
 button{background-color:white!important;
-background-color:#f1f1f1!important;
-margin-right:3px!important;}
+background-color:#f1f1f1!important;}
+
+  
