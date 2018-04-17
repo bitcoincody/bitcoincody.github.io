@@ -378,7 +378,7 @@ body {
  margin:0px;
 padding:0px;
 font-family:roboto;
-background-color:#fff;
+background-color:#eef2ff;
   
 }
  
@@ -430,7 +430,8 @@ padding-bottom:0px!Important;
 font-weight:500!important;}
 
 .chan_link_header {color:black!important;
-font-weight:900!important;}
+font-weight:900!important;
+font-size:22px;}
 
  
 .forum_feed_link,.chan_link_body{
