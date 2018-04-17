@@ -45,6 +45,17 @@ font-size:12px; line-height:17px;
 color:#999!important;
 font-size:15px;}
 
+
+.chart_thumb .chart_title {
+opacity:0.7;
+padding-top:20px;
+}
+
+.chart_title{font-size:11px;}
+
+.chart_thumb:hover * {
+opacity:1!important;}
+
 .swing-banner .love {font-size:13px;  padding-left:8px; color:lightblue!important;}
 .swing-banner a{
 font-weight:300;
@@ -100,11 +111,7 @@ overflow:hidden;
 padding:20px;  
 margin-bottom:11px;
 }
-
-.chatxx {  
-margin-top:15px; 
-width:104%;}
-
+ 
 .resource_link_div_left {
 color:#999;
 z-index:99999!important; 
@@ -162,8 +169,9 @@ overflow-x: hidden!important;}
  
  
  .exchange_buttons {
- opacity:0.7;
- padding-left:10px;}
+ opacity:0.7; 
+ margin-left:-9px;
+}
  
  button{border:none!important;
  background-color:#090909;
@@ -359,7 +367,7 @@ hr {opacity:0}
  
 	padding-bottom:0px;
 	z-index:9999!important;
-	text-align:right;}
+ }
 	
 body > div.charts > a:nth-child(odd)  {
 color:#999!important;
@@ -368,9 +376,8 @@ color:#999!important;
 body > div.charts > a:nth-child(even)  {
 color:#777!important;
 }
- .chart_thumb {	 
- 	 margin-right:-1px;
-	 margin-bottom:-1px;
+ .chart_thumb {	  
+ padding-left:0px;
 }
 	
 	
@@ -399,7 +406,7 @@ body {margin-right:0px!important;}
 
 
 @media only screen and (min-width: 914px) {
-body   {margin-right:190px!important;}
+body   { padding:20px;}
 .charts{padding-left:8px!important;}
 }
 
@@ -449,3 +456,5 @@ border-bottom: 1px solid #ddd;
 padding-bottom:9px!important;
 }
  
+
+*{color:#34345C !important}
