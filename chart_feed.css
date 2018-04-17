@@ -8,7 +8,7 @@ html {
 
 .resource_link_div_left, .resource_link_div_right,
 .resource_link, .chan_link_right, .chan_link_left {
-opacity:0.60;
+ 
 text-decoration:none!important; 
 border-color:#555!important;
 color:white!important;
@@ -31,7 +31,9 @@ color:lightblue;
 }
  
   
- 
+  
+  body > div > div.chan_link_left > div > i { font-size:15px!important;}
+  
 .resource_image_left { 
 padding-left:10px;
 padding-right:20px;
@@ -411,8 +413,8 @@ background-color:#f1f1f1!important;}
   
 .chan_link_left {color:black!important;
 font-weight:400; 
-line-height:24px;
- font-size:20px!important;}
+line-height:19px;
+ font-size:17px!important;}
 
 
 
