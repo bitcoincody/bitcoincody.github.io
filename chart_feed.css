@@ -29,7 +29,8 @@ color:lightblue;
  
   
   
-  body > div > div.chan_link_left > div > i { font-size:15px!important;}
+  body > div > div.chan_link_left > div > i { font-size:13px!important;
+  float:left;}
   
 .resource_image_left { 
 padding-left:10px;
@@ -399,10 +400,7 @@ line-height:18px;
  font-size:15px!important;}
 
 
-
-.chat_link_left i,
-.chan_link_style{ 
-}
+ 
 
 
  
