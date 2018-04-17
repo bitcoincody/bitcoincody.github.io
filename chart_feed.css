@@ -29,8 +29,9 @@ color:lightblue;
  
   
   
-  body > div > div.chan_link_left > div > i { font-size:13px!important;
-  float:left;}
+  body > div > div.chan_link_left > div > i { font-size:12px!important;
+  font-style:normal!important;
+  float:right;}
   
 .resource_image_left { 
 padding-left:10px;
