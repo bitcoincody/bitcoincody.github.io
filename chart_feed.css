@@ -67,6 +67,9 @@ margin-top:3px;
 .chan_link_left a:before {
 content:"•" }
 
+.chan_link_header a:before {
+content:"" }
+
 .market-stats {font-size:10px;
 line-height:14px;
 margin-top:45px;
@@ -335,9 +338,10 @@ hr {opacity:0}
 
 
 
-
-
-
+ * {
+  list-style-type: none!important;
+}
+ 
 
 
 
@@ -431,11 +435,17 @@ font-weight:500!important;}
 
 .chan_link_header {color:black!important;
 font-weight:900!important;
+    list-style-type: none!important;    margin: 0;
+    padding: 0;
 font-size:22px;}
 
- 
+.chan_link_header * {    margin: 0;
+    list-style-type: none!important;  
+    padding: 0;}
+
 .forum_feed_link,.chan_link_body{
 margin-bottom:11px!important;
 border-bottom: 1px solid #ddd;
 padding-bottom:9px!important;
 }
+ 
