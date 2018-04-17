@@ -1,10 +1,6 @@
 html {
   overflow:   scroll;
-}
-::-webkit-scrollbar {
-    width: 0px;
-    background: transparent; /* make scrollbar transparent */
-}
+} 
 
 .resource_link_div_left, .resource_link_div_right,
 .resource_link, .chan_link_right, .chan_link_left {
@@ -15,7 +11,7 @@ color:white!important;
 margin-left:10px;  }
 
  .twitter_div_left { 
- margin-top:55px;
+ margin-top:50px;
  margin-left:-16px;
   }
  
@@ -131,33 +127,7 @@ margin-bottom:6px;
 
 
 
-
-::-webkit-scrollbar {
-  width: 1px;
-}
-html{overflow-y: scroll!important;
-overflow-x: hidden!important;}
-
-::-webkit-scrollbar-thumb {
-  background: #666!important;
-}
-::-webkit-scrollbar-thumb {
-  background: #666!important;
-}
-::-webkit-scrollbar-thumb {
-  background: #444!important;
-}
-
-::-webkit-scrollbar-track {
-  background: black;
-}
-
-::-webkit-scrollbar-button {
-  background: #000;
-  height: 0px;
-  border-radius: 0%;
-}
-
+ 
 
 
 
