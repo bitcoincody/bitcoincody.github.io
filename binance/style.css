@@ -1,6 +1,25 @@
-span {
+body {
 
-height:120px!important;
+font-family:arial;
+ width: 90%; margin: 0 auto; 
+
 }
 
 
+.chart {
+ margin-bottom:10px;
+ width:25%;
+ float:left;
+ margin-right:5px;
+ margin-left:5px;
+ background-color:#f1f1f1;
+ padding:2%;
+}
+
+ 
+.chart a {
+text-decoration:none;
+font-weight:100;
+color:#D1d1d1;
+
+}
