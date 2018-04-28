@@ -25,3 +25,10 @@ font-weight:100;
 color:#D1d1d1;
 
 }
+
+
+
+.last-price {
+position:relative;
+top:-25px; 
+}
