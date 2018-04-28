@@ -24,9 +24,7 @@ font-weight:bold;}
 text-decoration:none;
 float:left;
 font-weight:100;
-color:#777;
 font-size:16px;
-background-color:#222;
 padding-top:10px;
 padding-bottom:10px;
 padding-left:10px;
@@ -55,18 +53,18 @@ padding-top:5px;
 
 
 
-.garbage {
+.garbage , .garbage a {
 
  background-color:#111;
 color:#555!important;
 }
 
-.garbage2 {
+.garbage2 , .garbage2 a {
  background-color:#222;
 color:#777!important;
 }
 
-.garbage3{
+.garbage3 , .garbage3 a {
  background-color:#333;
 color:#999!important;
 }
