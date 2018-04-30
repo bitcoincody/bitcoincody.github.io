@@ -2,7 +2,7 @@ body {
 background-color:#000;
 color:#555;
 font-family:arial;
- width: 95%; margin: 0 auto; 
+ width: 99%; margin: 0 auto; 
 
 }
 a {color:#555;
@@ -19,18 +19,32 @@ font-weight:bold;}
  padding-bottom:5px;
 }
  
- 
+ .chart a {
+text-decoration:none;
+float:left;
+font-weight:100;
+font-size:16px;
+padding-top:10px;
+padding-bottom:10px;
+padding-left:10px;
+padding-right:10px;
+margin-left:-19px; 
+margin-right:8px;
+
+}
+
+
+
+
  
 .chart1day {
  margin-bottom:10px;
- width:90%;
- padding-top:0px!important;
-  
+ width:47%;
+   float:left; 
  margin-right:5px;
  margin-left:5px;
  text-align:right;
- padding:2%;
- padding-bottom:5px;
+ padding:10px;
 }
  
  
@@ -38,43 +52,23 @@ font-weight:bold;}
  
 .chart1day a {
 text-decoration:none;
-float:left;
 font-weight:100;
-font-size:16px;
-padding-top:10px;
-padding-bottom:10px;
-padding-left:10px;
-padding-right:10px;
-margin-left:-19px; 
-margin-right:8px;
+font-size:30px; 
 
 }
 
 
- 
-.chart a {
-text-decoration:none;
-float:left;
-font-weight:100;
-font-size:16px;
-padding-top:10px;
-padding-bottom:10px;
-padding-left:10px;
-padding-right:10px;
-margin-left:-19px; 
-margin-right:8px;
-
-}
-
+.chartS {width:80%;
+float:left;}
 
  
 
 
-.gain-price {  position:relative; 
-
+.gain-price {  
+ width:20%;
+ float:right; 
 font-size:12px; 
-
-top:-200px;
+ 
 }
 
 
