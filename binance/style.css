@@ -21,10 +21,9 @@ font-weight:bold;}
  
  .chart a {
 text-decoration:none;
-float:left;
+ 
 font-weight:100;
-font-size:16px;
-padding-top:10px;
+font-size:16px; 
 padding-bottom:10px;
 padding-left:10px;
 padding-right:10px;
@@ -33,41 +32,56 @@ margin-right:8px;
 
 }
 
+.fiat-symb {font-size:31px;
+font-weight:100}
+.opacity {
+opacity:0.5;
+}
+
+.fiat-spacer {
+margin-right:20px;}
 
 
 
+.fiatnow {font-size:50px;
+}
  
-.chart1day {
+.chart1day { 
  margin-bottom:10px;
- width:47%;
+ width:45%;
    float:left; 
  margin-right:5px;
  margin-left:5px;
  text-align:right;
- padding:10px;
+ padding:20px;
 }
  
  
 
- 
+table {  
+width:100%;
+text-align:left;
+font-size:11px; 
+}
+
 .chart1day a {
 text-decoration:none;
 font-weight:100;
-font-size:30px; 
+font-size:50px; 
 
 }
 
 
-.chartS {width:80%;
+.chartS {width:100%;
 float:left;}
 
  
 
 
-.gain-price {  
- width:20%;
+.gain-price {   
  float:right; 
 font-size:12px; 
+padding-top:10px;
  
 }
 
